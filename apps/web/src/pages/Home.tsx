@@ -1,36 +1,45 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import { useEffect, useState } from "react";
+import RecipeCard from "../components/RecipeCard";
+import SearchBar from "../components/SearchBar";
+import { getRecipes } from "../lib/api";
 
-interface AppProps {
-  appName: string;
+interface Recipe {
+  id: number;
+  title: string;
+  description: string;
+  image?: string;
 }
 
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
+export default function Home() {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [filtered, setFiltered] = useState<Recipe[]>([]);
 
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
+  useEffect(() => {
+    async function fetchRecipes() {
+      const data = await getRecipes();
+      setRecipes(data);
+      setFiltered(data);
+    }
+    fetchRecipes();
+  }, []);
 
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
+  const handleSearch = (query: string) => {
+    setFiltered(
+      recipes.filter((r) =>
+        r.title.toLowerCase().includes(query.toLowerCase())
+      )
+    );
   };
 
   return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
+    <div className="p-6">
+      <h1 className="text-3xl font-bold mb-6 text-center">🍲 Open Recipe Hub</h1>
+      <SearchBar onSearch={handleSearch} />
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {filtered.map((recipe) => (
+          <RecipeCard key={recipe.id} recipe={recipe} />
+        ))}
+      </div>
     </div>
   );
-};
-
-export default App;
+}

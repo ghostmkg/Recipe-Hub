@@ -1,36 +1,32 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import { useState } from "react";
 
-interface AppProps {
-  appName: string;
+interface SearchBarProps {
+  onSearch: (query: string) => void;
 }
 
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
+export default function SearchBar({ onSearch }: SearchBarProps) {
+  const [query, setQuery] = useState("");
 
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    onSearch(query);
   };
 
   return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
-    </div>
+    <form onSubmit={handleSubmit} className="flex items-center gap-2 mb-6">
+      <input
+        type="text"
+        placeholder="Search by ingredient..."
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        className="border border-gray-300 p-2 rounded-md w-full"
+      />
+      <button
+        type="submit"
+        className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700"
+      >
+        Search
+      </button>
+    </form>
   );
-};
-
-export default App;
+}
