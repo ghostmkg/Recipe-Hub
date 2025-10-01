@@ -1,36 +1,26 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import SubmitRecipe from "./pages/SubmitRecipe";
+import RecipeDetail from "./pages/RecipeDetail";
 
-interface AppProps {
-  appName: string;
-}
-
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
-
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
-  };
-
+function App() {
   return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
-    </div>
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow container mx-auto mt-6 px-4">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/submit" element={<SubmitRecipe />} />
+            <Route path="/recipes/:id" element={<RecipeDetail />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
-};
+}
 
 export default App;

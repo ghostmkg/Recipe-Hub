@@ -1,36 +1,30 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import { Link } from "react-router-dom";
 
-interface AppProps {
-  appName: string;
+interface RecipeCardProps {
+  recipe: {
+    id: number;
+    title: string;
+    description: string;
+    image?: string;
+  };
 }
 
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
-
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
-  };
-
+export default function RecipeCard({ recipe }: RecipeCardProps) {
   return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
+    <div className="bg-white shadow-md rounded-lg p-4 hover:shadow-xl transition">
+      <img
+        src={recipe.image || "https://via.placeholder.com/300"}
+        alt={recipe.title}
+        className="w-full h-40 object-cover rounded-md"
+      />
+      <h2 className="text-xl font-semibold mt-3">{recipe.title}</h2>
+      <p className="text-gray-600 mt-2 line-clamp-2">{recipe.description}</p>
+      <Link
+        to={`/recipes/${recipe.id}`}
+        className="text-green-600 font-medium mt-3 inline-block"
+      >
+        View Details →
+      </Link>
     </div>
   );
-};
-
-export default App;
+}
