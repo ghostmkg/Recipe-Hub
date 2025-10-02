@@ -1,8 +1,9 @@
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from app.core.config import settings
-from app.api.v1 import health, recipes, users, ratings, uploads
+from apps.servers.app.core.config import settings
+from apps.servers.app.api.v1 import health, recipes, users, ratings, uploads
+
 import time
 import logging
 
@@ -51,6 +52,17 @@ app.include_router(recipes.router, prefix="/api/v1", tags=["recipes"])
 app.include_router(users.router, prefix="/api/v1", tags=["users"])
 app.include_router(ratings.router, prefix="/api/v1", tags=["ratings"])
 app.include_router(uploads.router, prefix="/api/v1", tags=["uploads"])
+from apps.servers.app.api.v1 import categories  # noqa: E402
+
+# Add this line where you include routers
+app.include_router(categories.router, prefix="/api/v1", tags=["categories"])
+
+from apps.servers.app.core.database import Base, engine  # noqa: E402
+from apps.servers.app.models.recipe import Recipe  # noqa: E402, F401
+
+
+Base.metadata.create_all(bind=engine)
+
 
 @app.get("/")
 async def root():
