@@ -1,23 +1,18 @@
-// api.ts
+// Recipe Hub API Client
 
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
+import { 
+  Recipe, 
+  RecipeWithDetails, 
+  User, 
+  Rating, 
+  SearchFilters, 
+  ApiResponse, 
+  PaginatedResponse 
+} from './types';
 
-// 1. Define API endpoint types (optional but good practice)
-interface User {
-  id: number;
-  name: string;
-  email: string;
-}
-
-interface Post {
-  id: number;
-  userId: number;
-  title: string;
-  body: string;
-}
-
-// 2. Configure Axios instance
-const API_BASE_URL = 'https://jsonplaceholder.typicode.com'; // Example API
+// Configure Axios instance
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
 const axiosInstance: AxiosInstance = axios.create({
   baseURL: API_BASE_URL,
   headers: {
@@ -50,37 +45,70 @@ axiosInstance.interceptors.response.use(
   }
 );
 
-// 3. Define API functions
+// Define API functions
 export const api = {
-  // User related API calls
-  users: {
-    getAll: async (): Promise<User[]> => {
-      const response: AxiosResponse<User[]> = await axiosInstance.get('/users');
+  // Recipe related API calls
+  recipes: {
+    getAll: async (page = 1, limit = 10): Promise<PaginatedResponse<RecipeWithDetails>> => {
+      const response: AxiosResponse<PaginatedResponse<RecipeWithDetails>> = 
+        await axiosInstance.get(`/recipes?page=${page}&limit=${limit}`);
       return response.data;
     },
-    getById: async (id: number): Promise<User> => {
-      const response: AxiosResponse<User> = await axiosInstance.get(`/users/${id}`);
+    getById: async (id: number): Promise<RecipeWithDetails> => {
+      const response: AxiosResponse<RecipeWithDetails> = await axiosInstance.get(`/recipes/${id}`);
       return response.data;
     },
-    create: async (userData: Omit<User, 'id'>): Promise<User> => {
-      const response: AxiosResponse<User> = await axiosInstance.post('/users', userData);
+    create: async (recipeData: Omit<Recipe, 'id' | 'created_at' | 'created_by'>): Promise<Recipe> => {
+      const response: AxiosResponse<Recipe> = await axiosInstance.post('/recipes', recipeData);
+      return response.data;
+    },
+    update: async (id: number, recipeData: Partial<Recipe>): Promise<Recipe> => {
+      const response: AxiosResponse<Recipe> = await axiosInstance.put(`/recipes/${id}`, recipeData);
+      return response.data;
+    },
+    delete: async (id: number): Promise<void> => {
+      await axiosInstance.delete(`/recipes/${id}`);
+    },
+    search: async (filters: SearchFilters): Promise<PaginatedResponse<RecipeWithDetails>> => {
+      const response: AxiosResponse<PaginatedResponse<RecipeWithDetails>> = 
+        await axiosInstance.get('/recipes/search', { params: filters });
       return response.data;
     },
   },
 
-  // Post related API calls
-  posts: {
-    getAll: async (): Promise<Post[]> => {
-      const response: AxiosResponse<Post[]> = await axiosInstance.get('/posts');
+  // User related API calls
+  users: {
+    getProfile: async (): Promise<User> => {
+      const response: AxiosResponse<User> = await axiosInstance.get('/users/profile');
       return response.data;
     },
-    getById: async (id: number): Promise<Post> => {
-      const response: AxiosResponse<Post> = await axiosInstance.get(`/posts/${id}`);
+    updateProfile: async (userData: Partial<User>): Promise<User> => {
+      const response: AxiosResponse<User> = await axiosInstance.put('/users/profile', userData);
       return response.data;
     },
-    create: async (postData: Omit<Post, 'id'>): Promise<Post> => {
-      const response: AxiosResponse<Post> = await axiosInstance.post('/posts', postData);
+    register: async (userData: { username: string; email: string; password: string }): Promise<User> => {
+      const response: AxiosResponse<User> = await axiosInstance.post('/users/register', userData);
       return response.data;
+    },
+    login: async (credentials: { email: string; password: string }): Promise<{ user: User; token: string }> => {
+      const response: AxiosResponse<{ user: User; token: string }> = 
+        await axiosInstance.post('/users/login', credentials);
+      return response.data;
+    },
+  },
+
+  // Rating related API calls
+  ratings: {
+    rateRecipe: async (recipeId: number, rating: { stars: number; comment?: string }): Promise<Rating> => {
+      const response: AxiosResponse<Rating> = await axiosInstance.post(`/ratings/${recipeId}`, rating);
+      return response.data;
+    },
+    updateRating: async (ratingId: number, rating: { stars: number; comment?: string }): Promise<Rating> => {
+      const response: AxiosResponse<Rating> = await axiosInstance.put(`/ratings/${ratingId}`, rating);
+      return response.data;
+    },
+    deleteRating: async (ratingId: number): Promise<void> => {
+      await axiosInstance.delete(`/ratings/${ratingId}`);
     },
   },
 };

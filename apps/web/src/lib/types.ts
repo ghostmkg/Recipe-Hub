@@ -1,19 +1,72 @@
-// api.ts
+// Recipe Hub Types
 
-import axios, { AxiosInstance, AxiosResponse } from 'axios';
-
-// 1. Define API endpoint types (optional but good practice)
-interface User {
+// User interface
+export interface User {
   id: number;
-  name: string;
+  username: string;
   email: string;
+  joined_at: string;
 }
 
-interface Post {
+// Recipe interface
+export interface Recipe {
   id: number;
-  userId: number;
   title: string;
-  body: string;
+  description: string;
+  ingredients: string[];
+  steps: string[];
+  tags: string[];
+  image_url?: string;
+  created_by: number;
+  created_at: string;
+  difficulty: 'Easy' | 'Medium' | 'Hard';
+  prep_time: number; // in minutes
+  cook_time: number; // in minutes
+  servings: number;
+  category: string;
+}
+
+// Rating interface
+export interface Rating {
+  id: number;
+  user_id: number;
+  recipe_id: number;
+  stars: number;
+  comment?: string;
+  timestamp: string;
+}
+
+// Recipe with user info and ratings
+export interface RecipeWithDetails extends Recipe {
+  author: User;
+  average_rating: number;
+  total_ratings: number;
+  user_rating?: Rating;
+}
+
+// Search filters
+export interface SearchFilters {
+  query?: string;
+  category?: string;
+  difficulty?: string;
+  max_prep_time?: number;
+  tags?: string[];
+}
+
+// API Response types
+export interface ApiResponse<T> {
+  data: T;
+  message?: string;
+  success: boolean;
+}
+
+export interface PaginatedResponse<T> {
+  data: T[];
+  total: number;
+  page: number;
+  limit: number;
+  has_next: boolean;
+  has_prev: boolean;
 }
 
 // 2. Configure Axios instance
