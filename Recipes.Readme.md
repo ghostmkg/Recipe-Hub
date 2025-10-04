@@ -1,33 +1,42 @@
 ## 🙌 Ways to Contribute (Even Without Code)
 
-### 1. 📝 Recipe Translations  
-Translate existing recipes into other languages (Hindi, Spanish, French, etc.) so more people worldwide can enjoy them.  
+### 1. 📝 Recipe Translations
 
-### 2. 📸 Add Recipe Photos  
-Upload high-quality images for recipes (your own or free stock images from Unsplash/Pexels).  
+Translate existing recipes into other languages (Hindi, Spanish, French, etc.) so more people worldwide can enjoy them.
 
-### 3. 🎨 UI/UX Design  
-- Suggest design improvements using tools like Figma or Canva  
-- Propose new layouts, color themes, or dark mode mockups  
+### 2. 📸 Add Recipe Photos
 
-### 4. 📖 Improve Documentation  
-- Fix typos or grammar in README, CONTRIBUTING, etc.  
-- Write setup guides, FAQs, or beginner-friendly tutorials  
+Upload high-quality images for recipes (your own or free stock images from Unsplash/Pexels).
 
-### 5. 🌟 Content Curation  
-- Add new recipes in Markdown/JSON format  
-- Categorize recipes (Vegan, Desserts, Quick Meals)  
-- Create “Top Recipes” lists  
+- Add short, descriptive alt text for accessibility.
 
-### 6. 🌍 Community & Outreach  
-- Promote the project on social media or blogs  
-- Help translate documentation  
-- Answer questions from other contributors in Issues or Discussions  
+### 3. 🎨 UI/UX Design
 
-### 7. 🧪 Manual Testing  
-- Try the app and report bugs/issues  
-- Suggest usability improvements (e.g., “Search bar could be more visible”)  
+- Suggest design improvements using tools like Figma or Canva
+- Propose new layouts, color themes, or dark mode mockups
+
+### 4. 📖 Improve Documentation
+
+- Fix typos or grammar in README, CONTRIBUTING, etc.
+- Write setup guides, FAQs, or beginner-friendly tutorials
+
+### 5. 🌟 Content Curation
+
+- Add new recipes in Markdown/JSON format
+- Categorize recipes (Vegan, Desserts, Quick Meals)
+- Create “Top Recipes” lists
+
+### 6. 🌍 Community & Outreach
+
+- Promote the project on social media or blogs
+- Help translate documentation
+- Answer questions from other contributors in Issues or Discussions
+
+### 7. 🧪 Manual Testing
+
+- Try the app and report bugs/issues
+- Suggest usability improvements (e.g., “Search bar could be more visible”)
 
 > Every contribution counts! Whether you code, design, write, or test, your efforts make **Open Recipe Hub** better for everyone. 🍴✨
 
-// This Help Lot ❤️ Thanks You
+Thank you for contributing — this helps a lot! ❤️
