@@ -48,7 +48,7 @@ async def http_exception_handler(request, exc):
 # Include routers
 app.include_router(health.router, prefix="/api/v1", tags=["health"])
 app.include_router(recipes.router, prefix="/api/v1", tags=["recipes"])
-app.include_router(users.router, prefix="/api/v1", tags=["users"])
+app.include_router(users.router, prefix="/api/v1/users", tags=["users"]) # users service has been connected till now 
 app.include_router(ratings.router, prefix="/api/v1", tags=["ratings"])
 app.include_router(uploads.router, prefix="/api/v1", tags=["uploads"])
 app.include_router(meal_plans.router, prefix="/api/v1", tags=["meal-plans"])

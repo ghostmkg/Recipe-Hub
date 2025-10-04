@@ -10,7 +10,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 class AuthService:
     @staticmethod
@@ -20,7 +20,7 @@ class AuthService:
     @staticmethod
     def get_password_hash(password: str) -> str:
         return pwd_context.hash(password)
-
+# 
     @staticmethod
     def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
         to_encode = data.copy()
