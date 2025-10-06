@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+*.db
+
+# Node
+node_modules/
+apps/web/dist
+
+# OS
+.DS_Store
+
+# data
+data/media/*
+!data/media/.gitkeep

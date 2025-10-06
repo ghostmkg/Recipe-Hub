@@ -1,26 +1,35 @@
-version: '3.8' # Specify the Compose file format version
-
+version: "3.9"
 services:
-  web:
-    build: . # Build the image from the current directory (where the Dockerfile is located)
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    volumes:
+      - ./apps/api:/app
+      - ./data:/data
+    environment:
+      - DATABASE_URL=sqlite:////data/recipes.db
     ports:
-      - "8000:80" # Map host port 8000 to container port 80
-    volumes:
-      - ./app:/var/www/html # Mount the local 'app' directory into the container
-    depends_on:
-      - db # Ensure the 'db' service starts before 'web'
-    environment:
-      DATABASE_URL: "mysql://user:password@db:3306/mydatabase" # Example environment variable
+      - "8000:8000"
 
-  db:
-    image: mysql:8.0 # Use the official MySQL 8.0 image from Docker Hub
+  web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  # optional postgres service if you want to switch
+  postgres:
+    image: postgres:14
     environment:
-      MYSQL_ROOT_PASSWORD: "mysecretpassword" # Set the root password for MySQL
-      MYSQL_DATABASE: "mydatabase" # Create a default database
-      MYSQL_USER: "user" # Create a default user
-      MYSQL_PASSWORD: "password" # Set the password for the default user
+      POSTGRES_USER: recipehub
+      POSTGRES_PASSWORD: recipehub
+      POSTGRES_DB: recipehub
     volumes:
-      - db_data:/var/lib/mysql # Persist database data to a named volume
+      - pgdata:/var/lib/postgresql/data
 
 volumes:
-  db_data: # Define the named volume for database persistence
+  pgdata:
