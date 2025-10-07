@@ -1,36 +1,47 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import React, { useState, ChangeEvent } from 'react';
 
-interface AppProps {
-  appName: string;
+interface SearchBarProps {
+  placeholder?: string;
+  onSearch: (query: string) => void;
 }
 
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
+const SearchBar: React.FC<SearchBarProps> = ({ placeholder = "Search...", onSearch }) => {
+  const [query, setQuery] = useState<string>("");
 
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setQuery(value);
+    onSearch(value); // Call the parent function when user types
   };
 
   return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
+    <div style={styles.container}>
+      <input
+        type="text"
+        value={query}
+        placeholder={placeholder}
+        onChange={handleChange}
+        style={styles.input}
+      />
     </div>
   );
 };
 
-export default App;
+export default SearchBar;
+
+// Inline styles (you can move them to a CSS file if preferred)
+const styles: Record<string, React.CSSProperties> = {
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    margin: "1rem 0",
+  },
+  input: {
+    width: "250px",
+    padding: "8px 12px",
+    fontSize: "16px",
+    borderRadius: "8px",
+    border: "1px solid #ccc",
+    outline: "none",
+  },
+};
