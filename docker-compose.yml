@@ -1,35 +1,43 @@
 version: "3.9"
+
 services:
-  api:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile.api
-    volumes:
-      - ./apps/api:/app
-      - ./data:/data
-    environment:
-      - DATABASE_URL=sqlite:////data/recipes.db
-    ports:
-      - "8000:8000"
+api:
+build:
+context: .
+dockerfile: docker/Dockerfile.api
+container_name: recipehub_api
+ports:
+- "8000:8000"
+volumes:
+- ./apps/servers:/app
+- ./data:/data
+environment:
+- PYTHONUNBUFFERED=1
+depends_on:
+- db
 
-  web:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile.web
-    ports:
-      - "3000:3000"
-    depends_on:
-      - api
+web:
+build:
+context: .
+dockerfile: docker/Dockerfile.web
+container_name: recipehub_web
+ports:
+- "5173:80"
+depends_on:
+- api
 
-  # optional postgres service if you want to switch
-  postgres:
-    image: postgres:14
-    environment:
-      POSTGRES_USER: recipehub
-      POSTGRES_PASSWORD: recipehub
-      POSTGRES_DB: recipehub
-    volumes:
-      - pgdata:/var/lib/postgresql/data
+db:
+image: postgres:15
+container_name: recipehub_db
+restart: always
+environment:
+POSTGRES_USER=recipehub
+POSTGRES_PASSWORD=recipehub123
+POSTGRES_DB=recipehub_db
+ports:
+- "5432:5432"
+volumes:
+- postgres_data:/var/lib/postgresql/data
 
 volumes:
-  pgdata:
+postgres_data:

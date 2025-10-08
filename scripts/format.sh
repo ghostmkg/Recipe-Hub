@@ -1,27 +1,11 @@
-#!/usr/bin/env bash
-# format backend and frontend code
-set -e
+#!/bin/bash
 
-echo "Formatting Python backend..."
-cd apps/api
-# install black if not installed
-pip install black isort flake8 --quiet || true
-# format Python files
-black .
-isort .
-# optional linting
-flake8 .
+# Script to format backend and frontend code
 
-cd ../../
+echo "✨ Formatting backend with black + isort..."
+cd ../apps/servers || exit
+black . && isort .
 
-echo "Formatting frontend..."
-cd apps/web
-# install prettier if not installed
-npm install --silent prettier eslint --save-dev || true
-# format all JS/TS files
-npx prettier --write "src/**/*.{js,ts,jsx,tsx}"
-# optional eslint fix
-npx eslint "src/**/*.{js,ts,jsx,tsx}" --fix
-
-cd ../../
-echo "Formatting completed."
+echo "🧼 Formatting frontend with prettier..."
+cd ../../web || exit
+npx prettier --write "src/**/*.{ts,tsx,js,jsx,json,css}"

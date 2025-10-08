@@ -1,27 +1,20 @@
-# scripts/seed_db.py
-from apps.api.database import SessionLocal, engine
-from apps.api import models, crud, schemas
-from apps.api.models import Base
+import json
+from app.core.database import SessionLocal
+from app.models.recipe import Recipe
 
-def seed():
-    Base.metadata.create_all(bind=engine)
-    db = SessionLocal()
-    # create admin user if not exists
-    if not db.query(models.User).filter(models.User.username == "admin").first():
-        user = schemas.UserCreate(username="admin", email="admin@example.com", password="password")
-        crud.create_user(db, user)
-    # sample recipe
-    if not db.query(models.Recipe).first():
-        r = schemas.RecipeCreate(
-            title="Sample Pancakes",
-            description="Delicious sample pancakes for demo",
-            ingredients="Flour\nEggs\nMilk\nSalt\nSugar",
-            steps="1. Mix ingredients\n2. Cook on skillet",
-            tags="breakfast,dessert"
-        )
-        crud.create_recipe(db, r, user_id=1)
-    db.close()
-    print("Seeded DB")
+def seed_recipes():
+with open("data/samples/sample_recipes.json", "r") as f:
+recipes = json.load(f)
 
-if __name__ == "__main__":
-    seed()
+```
+db = SessionLocal()
+for r in recipes:
+    db.add(Recipe(**r))
+db.commit()
+db.close()
+```
+
+if **name** == "**main**":
+print("🌱 Seeding database with sample recipes...")
+seed_recipes()
+print("✅ Done!")
