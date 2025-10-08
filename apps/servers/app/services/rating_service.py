@@ -1,0 +1,1 @@
+print('rating_service.py')

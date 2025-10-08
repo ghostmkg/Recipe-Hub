@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "recipe-hub"
+version = "1.0.0"
+description = "Modern API for managing and sharing recipes"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+sqlalchemy = "^2.0.30"
+alembic = "^1.13.1"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+pydantic = "^2.6.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.0"
+httpx = "^0.27.0"
+black = "^24.4.2"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

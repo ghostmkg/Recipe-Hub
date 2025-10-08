@@ -1,0 +1,45 @@
+[
+{
+"id": 1,
+"title": "Spaghetti Carbonara",
+"description": "Classic Italian pasta with eggs, cheese, pancetta, and pepper.",
+"ingredients": [
+"200g spaghetti",
+"100g pancetta",
+"2 eggs",
+"50g grated Parmesan cheese",
+"Black pepper"
+],
+"instructions": "Cook pasta. Fry pancetta. Whisk eggs with cheese. Combine all and season with pepper.",
+"rating": 4.8
+},
+{
+"id": 2,
+"title": "Chicken Tikka Masala",
+"description": "Tender chicken pieces in a creamy spiced tomato sauce.",
+"ingredients": [
+"500g chicken breast",
+"1 cup yogurt",
+"2 tbsp tikka masala paste",
+"1 onion",
+"1 cup tomato puree",
+"1/2 cup cream"
+],
+"instructions": "Marinate chicken, grill until charred, then simmer in sauce until thickened.",
+"rating": 4.7
+},
+{
+"id": 3,
+"title": "Avocado Toast",
+"description": "Simple and healthy breakfast with creamy avocado spread on toasted bread.",
+"ingredients": [
+"2 slices whole grain bread",
+"1 ripe avocado",
+"Salt and pepper to taste",
+"Lemon juice",
+"Chili flakes (optional)"
+],
+"instructions": "Toast bread. Mash avocado with seasoning. Spread on toast and top with chili flakes.",
+"rating": 4.3
+}
+]
