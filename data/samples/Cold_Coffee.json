@@ -1,0 +1,26 @@
+{
+  "recipe_name": "Cold Coffee",
+  "author": "Josan",
+  "category": "Beverage",
+  "description": "A smooth, chilled cold coffee made with milk, instant coffee, and ice — perfect for a refreshing caffeine kick.",
+  "ingredients": [
+    "2 teaspoons instant coffee powder",
+    "1 tablespoon sugar (adjust to taste)",
+    "1 cup cold milk",
+    "4-5 ice cubes",
+    "1 scoop vanilla ice cream (optional)",
+    "Chocolate syrup (optional, for garnish)"
+  ],
+  "instructions": [
+    "In a small cup, mix coffee powder and sugar with 2 tablespoons of warm water until dissolved.",
+    "Add the coffee mixture, milk, and ice cubes into a blender.",
+    "Blend until the coffee becomes frothy and smooth.",
+    "Drizzle chocolate syrup inside a glass if desired, then pour the cold coffee into it.",
+    "Top with a scoop of vanilla ice cream or sprinkle some coffee powder for extra flavor.",
+    "Serve immediately and enjoy!"
+  ],
+  "prep_time": "7 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["drink", "coffee", "summer", "beverage", "refreshing"]
+}

@@ -1,0 +1,24 @@
+{
+  "recipe_name": "Mango Shake",
+  "author": "Anand Kumar Patel",
+  "category": "Beverage",
+  "description": "A refreshing, creamy mango shake made with ripe mangoes, milk, and sugar — perfect for hot summer days.",
+  "ingredients": [
+    "2 ripe mangoes (peeled and chopped)",
+    "1 cup chilled milk",
+    "2 tablespoons sugar (adjust to taste)",
+    "3-4 ice cubes (optional)",
+    "1 scoop vanilla ice cream (optional, for richer taste)"
+  ],
+  "instructions": [
+    "Add chopped mangoes, sugar, and milk into a blender.",
+    "Blend everything until smooth and creamy.",
+    "Add ice cubes or ice cream if desired, then blend again for 10 seconds.",
+    "Pour into a glass and garnish with small mango pieces or mint leaves.",
+    "Serve chilled and enjoy your refreshing mango shake!"
+  ],
+  "prep_time": "10 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["drink", "summer", "fruit", "dessert"]
+}
