@@ -1,0 +1,33 @@
+{
+  "recipe_name": "Paneer Sandwich",
+  "author": "Omkar Ramgirwar",
+  "category": "Snack",
+  "description": "A quick and delicious grilled sandwich stuffed with spicy paneer filling, perfect for breakfast or evening snacks.",
+  "ingredients": [
+    "200g paneer (crumbled)",
+    "1 small onion (finely chopped)",
+    "1 small tomato (finely chopped)",
+    "1 green chili (finely chopped, optional)",
+    "1/2 teaspoon red chili powder",
+    "1/4 teaspoon turmeric powder",
+    "1/2 teaspoon garam masala",
+    "1 tablespoon chopped coriander leaves",
+    "Salt to taste",
+    "1 tablespoon butter or oil",
+    "4 slices of bread",
+    "Butter for toasting"
+  ],
+  "instructions": [
+    "Heat 1 tablespoon butter or oil in a pan.",
+    "Add onion, tomato, and green chili; sauté until soft.",
+    "Add red chili powder, turmeric, garam masala, and salt; mix well.",
+    "Add crumbled paneer and cook for 2–3 minutes. Stir in coriander leaves and turn off the heat.",
+    "Spread butter on the bread slices and place the paneer filling between two slices.",
+    "Grill or toast the sandwich until golden and crisp.",
+    "Cut into halves or triangles and serve hot with ketchup or green chutney."
+  ],
+  "prep_time": "15 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["snack", "sandwich", "paneer", "grilled", "vegetarian"]
+}
