@@ -1,0 +1,34 @@
+{
+  "recipe_name": "Homemade Margherita Pizza",
+  "author": "Haris Iftikhar",
+  "category": "Main Course",
+  "description": "A classic Italian-style pizza with a crisp crust, fresh tomato sauce, mozzarella cheese, and basil — simple, fresh, and delicious.",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1 teaspoon instant yeast",
+    "1 teaspoon sugar",
+    "1/2 teaspoon salt",
+    "3/4 cup warm water",
+    "1 tablespoon olive oil",
+    "1/2 cup pizza sauce (homemade or store-bought)",
+    "1 cup shredded mozzarella cheese",
+    "Fresh basil leaves",
+    "1 tablespoon olive oil (for brushing the crust)"
+  ],
+  "instructions": [
+    "In a large bowl, mix flour, yeast, sugar, and salt.",
+    "Add warm water and olive oil, then knead until a soft dough forms.",
+    "Cover the dough with a damp cloth and let it rise for 1 hour or until doubled in size.",
+    "Preheat the oven to 475°F (245°C).",
+    "Roll out the dough on a floured surface into a round pizza base.",
+    "Spread pizza sauce evenly over the base, leaving a small border for the crust.",
+    "Top with shredded mozzarella and fresh basil leaves.",
+    "Brush the edges with olive oil for a golden crust.",
+    "Bake for 10–12 minutes or until the cheese melts and the crust turns golden brown.",
+    "Slice, serve hot, and enjoy your homemade Margherita pizza!"
+  ],
+  "prep_time": "1 hour 30 minutes",
+  "servings": 2,
+  "difficulty": "Medium",
+  "tags": ["pizza", "Italian", "homemade", "cheese", "vegetarian"]
+}
