@@ -1,0 +1,42 @@
+{
+  "title": "Seblak",
+  "description": "Seblak is a savory, spicy Indonesian street food made from softened tapioca crackers cooked with aromatic spices, vegetables, and egg. This is a quick, flexible version — add protein (sausage or shredded chicken) if you like.",
+  "cuisine": "Indonesian",
+  "difficulty": "Easy",
+  "prep_time": 10,
+  "cook_time": 15,
+  "servings": 2,
+  "ingredients": [
+    {"item": "Tapioca crackers (kerupuk aci)", "amount": "200 g", "notes": "soak briefly if very hard"},
+    {"item": "Water", "amount": "600 ml", "notes": "for boiling/softening the crackers"},
+    {"item": "Vegetable oil", "amount": "2 tbsp", "notes": ""},
+    {"item": "Garlic cloves", "amount": "3 cloves", "notes": "finely chopped"},
+    {"item": "Shallots", "amount": "3", "notes": "thinly sliced"},
+    {"item": "Bird's eye chilies", "amount": "6-10", "notes": "adjust to taste, roughly chopped"},
+    {"item": "Kencur (aromatic root)", "amount": "1 tsp, grated", "notes": "optional but traditional"},
+    {"item": "Egg", "amount": "1", "notes": "lightly beaten"},
+    {"item": "Vegetables (cabbage and carrot)", "amount": "150 g", "notes": "thinly sliced"},
+    {"item": "Sausage or shredded chicken (optional)", "amount": "100 g", "notes": "small pieces"},
+    {"item": "Sweet soy sauce (kecap manis)", "amount": "1 tbsp", "notes": ""},
+    {"item": "Salt", "amount": "1 tsp", "notes": ""},
+    {"item": "Sugar", "amount": "1 tsp", "notes": ""},
+    {"item": "Bouillon powder (optional)", "amount": "1/2 tsp", "notes": ""},
+    {"item": "Scallions (green onions)", "amount": "1 stalk", "notes": "thinly sliced for garnish"},
+    {"item": "Lime", "amount": "1", "notes": "optional, for serving"}
+  ],
+  "instructions": [
+    "Soak the tapioca crackers in boiling water for 2–3 minutes until slightly softened, then drain and set aside.",
+    "Pound or blend the garlic, shallots, bird's eye chilies, and kencur into a coarse paste.",
+    "Heat oil in a skillet and sauté the spice paste until fragrant and cooked (about 1–2 minutes).",
+    "Add the vegetables and optional protein (sausage/chicken) and stir-fry until the vegetables are wilted.",
+    "Add the softened crackers and toss to combine with the spices.",
+    "Pour in the beaten egg and quickly stir until the egg is cooked and coats the ingredients.",
+    "Season with sweet soy sauce, salt, sugar, and bouillon powder if using. Taste and adjust seasoning.",
+    "Cook for 2–3 minutes until everything is well combined and reaches the desired texture, then remove from heat.",
+    "Serve hot topped with sliced scallions and a squeeze of lime if desired."
+  ],
+  "tags": ["indonesian", "spicy", "street-food", "quick", "comfort-food"],
+  "nutrition": {"calories": 420, "protein": "12g", "carbs": "50g", "fat": "18g"},
+  "image_url": "",
+  "source": "Home recipe, adapted for contribution"
+}
