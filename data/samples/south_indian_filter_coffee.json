@@ -1,0 +1,61 @@
+{
+  "id": "filter-coffee-2025",
+  "title": "South Indian Filter Coffee",
+  "description": "A rich, aromatic blend of freshly ground coffee and frothy milk, brewed using a traditional Indian coffee filter. This classic beverage is loved for its strong flavor and silky texture.",
+  "cuisine": "Indian",
+  "difficulty": "medium",
+  "prep_time": 10,
+  "cook_time": 15,
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "coffee powder",
+      "amount": "3 tablespoons",
+      "notes": "use freshly ground South Indian filter coffee blend"
+    },
+    {
+      "item": "water",
+      "amount": "3/4 cup",
+      "notes": "boiling"
+    },
+    {
+      "item": "milk",
+      "amount": "1 cup",
+      "notes": "whole milk preferred for rich froth"
+    },
+    {
+      "item": "sugar",
+      "amount": "2 teaspoons",
+      "notes": "adjust according to taste"
+    }
+  ],
+  "instructions": [
+    "Add 3 tablespoons of coffee powder to the upper part of a South Indian coffee filter.",
+    "Pour hot water over the coffee and cover the filter lid.",
+    "Allow the decoction to slowly drip into the lower container (takes 10–15 minutes).",
+    "In a saucepan, bring milk to a boil and add sugar as per taste.",
+    "Mix 1/4 cup of decoction with 3/4 cup of hot milk.",
+    "Pour the mixture back and forth between two cups to create froth.",
+    "Serve hot in a traditional steel tumbler and dabarah."
+  ],
+  "tags": [
+    "beverage",
+    "indian",
+    "coffee",
+    "hot drink",
+    "traditional",
+    "filter coffee"
+  ],
+  "nutrition": {
+    "calories": 90,
+    "protein": "5g",
+    "carbs": "10g",
+    "fat": "4g",
+    "fiber": "0g",
+    "sodium": "40mg"
+  },
+  "image_url": "",
+  "author": "OceanKumar",
+  "date_added": "2025-10-15",
+  "notes": "For stronger coffee, use a higher decoction-to-milk ratio. You can also add a pinch of chicory for authentic South Indian flavor."
+}
