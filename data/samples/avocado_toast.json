@@ -1,0 +1,33 @@
+{
+    "recipe_name": "Avocado Toast",
+    "author": "Abhijai Sharma",
+    "category": "Breakfast",
+    "description": "A quick, healthy, and delicious breakfast or snack made with ripe avocado, seasoned to taste, and served on toasted bread — perfect for a nutritious start to your day.",
+    "ingredients": [
+        "2 slices of bread (your choice, toasted)",
+        "1 ripe avocado",
+        "1/2 teaspoon lemon juice",
+        "Salt, to taste",
+        "Black pepper, to taste",
+        "Optional toppings: cherry tomatoes, radish slices, poached egg, chili flakes, microgreens"
+    ],
+    "instructions": [
+        "Toast the bread slices until golden and crispy.",
+        "Cut the avocado in half, remove the pit, and scoop the flesh into a bowl.",
+        "Mash the avocado with a fork until smooth, then mix in lemon juice, salt, and black pepper.",
+        "Spread the mashed avocado evenly over the toasted bread slices.",
+        "Add any optional toppings you like, such as cherry tomatoes, radish, or a poached egg.",
+        "Serve immediately and enjoy your fresh avocado toast!"
+    ],
+    "prep_time": "10 minutes",
+    "servings": 2,
+    "difficulty": "Easy",
+    "tags": [
+        "breakfast",
+        "healthy",
+        "avocado",
+        "toast",
+        "quick",
+        "snack"
+    ]
+}
