@@ -1,0 +1,81 @@
+{
+  "id": "overnight-oats-2025",
+  "title": "Classic Overnight Oats with Berries",
+  "description": "A healthy, make-ahead breakfast that's perfect for busy mornings. These overnight oats are packed with protein, fiber, and antioxidants from fresh berries.",
+  "cuisine": "international",
+  "difficulty": "Easy",
+  "prep_time": 10,
+  "cook_time": 0,
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "Old-fashioned rolled oats",
+      "amount": "1 cup",
+      "notes": "Do not use quick oats or steel-cut oats"
+    },
+    {
+      "item": "Milk",
+      "amount": "1 cup",
+      "notes": "Any type: dairy, almond, soy, or oat milk"
+    },
+    {
+      "item": "Greek yogurt",
+      "amount": "1/2 cup",
+      "notes": "Plain, non-fat or full-fat"
+    },
+    {
+      "item": "Chia seeds",
+      "amount": "2 tablespoons",
+      "notes": ""
+    },
+    {
+      "item": "Honey",
+      "amount": "2 tablespoons",
+      "notes": "Or maple syrup for vegan option"
+    },
+    {
+      "item": "Vanilla extract",
+      "amount": "1 teaspoon",
+      "notes": ""
+    },
+    {
+      "item": "Mixed berries",
+      "amount": "1 cup",
+      "notes": "Fresh or frozen (strawberries, blueberries, raspberries)"
+    },
+    {
+      "item": "Sliced almonds",
+      "amount": "1/4 cup",
+      "notes": "For topping"
+    }
+  ],
+  "instructions": [
+    "In a medium bowl, combine rolled oats, milk, Greek yogurt, chia seeds, honey, and vanilla extract. Stir well until all ingredients are thoroughly mixed.",
+    "Divide the mixture evenly between two mason jars or containers with lids.",
+    "Cover and refrigerate overnight or for at least 6 hours.",
+    "When ready to serve, top with mixed berries and sliced almonds.",
+    "Stir well and enjoy cold. Can be stored in the refrigerator for up to 3 days."
+  ],
+  "tags": [
+    "breakfast",
+    "meal-prep",
+    "make-ahead",
+    "healthy",
+    "no-cook",
+    "vegetarian",
+    "high-protein",
+    "kid-friendly"
+  ],
+  "nutrition": {
+    "calories": 385,
+    "protein": "15g",
+    "carbs": "56g",
+    "fat": "14g",
+    "fiber": "9g",
+    "sugar": "20g",
+    "sodium": "65mg"
+  },
+  "image_url": "",
+  "notes": "For a different flavor variation, try adding: mashed banana, peanut butter, cocoa powder, or different fruits. The basic ratio of oats to liquid can be adjusted for desired thickness.",
+  "source": "Recipe Hub Community"
+}
