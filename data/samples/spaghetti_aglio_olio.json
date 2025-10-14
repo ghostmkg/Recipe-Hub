@@ -1,0 +1,28 @@
+{
+  "recipe_name": "Spaghetti Aglio e Olio",
+  "author": "Bienvenu Gbeti",
+  "category": "Main Course",
+  "description": "A classic Italian pasta dish made with garlic, olive oil, and chili flakes — simple yet full of flavor, perfect for a quick meal.",
+  "ingredients": [
+    "200g spaghetti",
+    "4 cloves garlic (thinly sliced)",
+    "4 tablespoons olive oil",
+    "1/2 teaspoon red chili flakes (adjust to spice preference)",
+    "Salt to taste",
+    "Fresh parsley (chopped, for garnish)",
+    "Grated Parmesan cheese (optional)"
+  ],
+  "instructions": [
+    "Cook the spaghetti in salted boiling water until al dente, then drain and reserve a small cup of pasta water.",
+    "Heat olive oil in a pan on medium heat and add the sliced garlic.",
+    "Sauté until the garlic turns golden, then add chili flakes and stir for a few seconds.",
+    "Add the cooked spaghetti to the pan and toss well to coat in the oil mixture.",
+    "Add a few tablespoons of reserved pasta water to loosen the sauce if needed.",
+    "Season with salt, garnish with parsley and Parmesan, and serve hot."
+  ],
+  "prep_time": "15 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["pasta", "italian", "quick meal", "vegetarian"]
+}
+
