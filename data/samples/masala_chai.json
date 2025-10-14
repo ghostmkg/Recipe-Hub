@@ -1,0 +1,80 @@
+{
+  "id": "masala-chai-2023",
+  "title": "Traditional Indian Masala Chai",
+  "description": "A warming, aromatic Indian spiced tea that combines black tea with fragrant spices and milk. This comforting beverage is perfect for cold mornings or afternoon refreshment.",
+  "cuisine": "Indian",
+  "difficulty": "easy",
+  "prep_time": 5,
+  "cook_time": 10,
+  "servings": 2,
+  "ingredients": [
+    {
+      "item": "water",
+      "amount": "2 cups",
+      "notes": "filtered"
+    },
+    {
+      "item": "milk",
+      "amount": "1 cup",
+      "notes": "whole milk preferred, but any milk works"
+    },
+    {
+      "item": "black tea leaves",
+      "amount": "2 tablespoons",
+      "notes": "strong CTC or Assam tea"
+    },
+    {
+      "item": "fresh ginger",
+      "amount": "1 inch",
+      "notes": "crushed or finely chopped"
+    },
+    {
+      "item": "cardamom pods",
+      "amount": "4-5 pods",
+      "notes": "lightly crushed"
+    },
+    {
+      "item": "cinnamon stick",
+      "amount": "1 small",
+      "notes": "about 2 inches"
+    },
+    {
+      "item": "black peppercorns",
+      "amount": "4-5",
+      "notes": "whole"
+    },
+    {
+      "item": "sugar",
+      "amount": "2-3 teaspoons",
+      "notes": "adjust to taste"
+    }
+  ],
+  "instructions": [
+    "In a saucepan, bring water to a boil with crushed ginger, cardamom pods, cinnamon stick, and black peppercorns",
+    "Once boiling, add black tea leaves and reduce heat to medium-low. Simmer for 2-3 minutes",
+    "Add milk and sugar. Bring the mixture back to a gentle simmer",
+    "Continue to simmer for 2-3 minutes until the chai turns a rich caramel color",
+    "Strain the chai through a fine-mesh strainer into cups",
+    "Serve hot and enjoy your authentic masala chai"
+  ],
+  "tags": [
+    "beverage",
+    "indian",
+    "tea",
+    "spiced",
+    "hot drink",
+    "comfort food"
+  ],
+  "nutrition": {
+    "calories": 85,
+    "protein": "4g",
+    "carbs": "12g",
+    "fat": "3g",
+    "fiber": "0g",
+    "sodium": "45mg"
+  },
+  "image_url": "",
+  "author": "sahilshingate01",
+  "date_added": "2023-10-14",
+  "notes": "For a stronger chai, increase the amount of tea leaves. You can also add other spices like cloves or fennel seeds for variation."
+}
