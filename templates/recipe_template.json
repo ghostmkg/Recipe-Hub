@@ -1,0 +1,81 @@
+{
+  "recipe_template": {
+    "id": "",
+    "title": "",
+    "description": "",
+    "cuisine": "",
+    "difficulty": "",
+    "prep_time": 0,
+    "cook_time": 0,
+    "servings": 0,
+    "ingredients": [
+      {
+        "item": "",
+        "amount": "",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      ""
+    ],
+    "tags": [],
+    "nutrition": {
+      "calories": 0,
+      "protein": "",
+      "carbs": "",
+      "fat": "",
+      "fiber": "",
+      "sodium": ""
+    },
+    "image_url": "",
+    "notes": "",
+    "source": ""
+  },
+  
+  "ingredient_template": {
+    "item": "Ingredient name",
+    "amount": "Quantity with unit (e.g., 2 cups, 500g, 1 tbsp)",
+    "notes": "Optional preparation notes (e.g., diced, room temperature)",
+    "category": "Optional category (protein, vegetable, spice, etc.)",
+    "substitutes": ["Optional substitute ingredients"]
+  },
+  
+  "nutrition_template": {
+    "calories": "Number (per serving)",
+    "protein": "Amount with unit (e.g., 25g)",
+    "carbs": "Amount with unit (e.g., 45g)",
+    "fat": "Amount with unit (e.g., 12g)",
+    "fiber": "Amount with unit (e.g., 5g)",
+    "sugar": "Amount with unit (e.g., 8g)",
+    "sodium": "Amount with unit (e.g., 350mg)",
+    "cholesterol": "Amount with unit (e.g., 75mg)"
+  },
+  
+  "validation_rules": {
+    "required_fields": [
+      "title",
+      "difficulty", 
+      "prep_time",
+      "cook_time",
+      "servings",
+      "ingredients",
+      "instructions"
+    ],
+    "difficulty_options": ["Easy", "Medium", "Hard"],
+    "title_length": {"min": 3, "max": 100},
+    "description_length": {"max": 500},
+    "servings_range": {"min": 1, "max": 20},
+    "time_limits": {"max": 1440},
+    "max_tags": 10,
+    "tag_length": {"max": 30}
+  },
+  
+  "example_tags": {
+    "dietary": ["vegetarian", "vegan", "gluten-free", "dairy-free", "keto", "paleo"],
+    "meal_type": ["breakfast", "lunch", "dinner", "snack", "dessert", "appetizer"],
+    "cooking_method": ["baked", "grilled", "fried", "steamed", "no-cook", "slow-cooker"],
+    "time_based": ["quick", "30-minute", "make-ahead", "meal-prep"],
+    "cuisine": ["italian", "mexican", "indian", "chinese", "mediterranean", "american"],
+    "characteristics": ["healthy", "comfort-food", "kid-friendly", "budget", "spicy"]
+  }
+}

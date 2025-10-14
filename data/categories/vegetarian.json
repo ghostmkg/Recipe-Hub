@@ -1,0 +1,89 @@
+{
+  "vegetarian_recipes": [
+    {
+      "id": "v001",
+      "title": "Mediterranean Quinoa Bowl",
+      "prep_time": 15,
+      "cook_time": 20,
+      "difficulty": "Easy",
+      "servings": 4,
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups vegetable broth",
+        "1 cucumber, diced",
+        "2 tomatoes, chopped",
+        "1/2 red onion, sliced",
+        "1/2 cup kalamata olives",
+        "1/2 cup feta cheese",
+        "1/4 cup olive oil",
+        "2 tbsp lemon juice",
+        "2 tsp oregano"
+      ],
+      "tags": ["vegetarian", "healthy", "Mediterranean", "bowl"]
+    },
+    {
+      "id": "v002",
+      "title": "Mushroom Risotto",
+      "prep_time": 10,
+      "cook_time": 35,
+      "difficulty": "Medium",
+      "servings": 4,
+      "ingredients": [
+        "1.5 cups Arborio rice",
+        "4 cups warm vegetable stock",
+        "300g mixed mushrooms",
+        "1 onion, finely chopped",
+        "3 cloves garlic, minced",
+        "1/2 cup white wine",
+        "1/2 cup Parmesan cheese",
+        "3 tbsp butter",
+        "2 tbsp olive oil"
+      ],
+      "tags": ["vegetarian", "Italian", "risotto", "comfort"]
+    },
+    {
+      "id": "v003",
+      "title": "Black Bean Tacos",
+      "prep_time": 10,
+      "cook_time": 15,
+      "difficulty": "Easy",
+      "servings": 4,
+      "ingredients": [
+        "2 cans black beans",
+        "8 corn tortillas",
+        "1 avocado, sliced",
+        "1 cup shredded cabbage",
+        "1/2 cup corn kernels",
+        "1/4 cup red onion, diced",
+        "1/4 cup cilantro",
+        "2 limes, juiced",
+        "1 tsp cumin",
+        "1 tsp chili powder"
+      ],
+      "tags": ["vegetarian", "Mexican", "tacos", "protein"]
+    },
+    {
+      "id": "v004",
+      "title": "Creamy Mushroom Pasta",
+      "prep_time": 10,
+      "cook_time": 20,
+      "difficulty": "Easy",
+      "servings": 4,
+      "ingredients": [
+        "400g fettuccine pasta",
+        "300g mixed mushrooms (cremini, shiitake, button)",
+        "3 cloves garlic, minced",
+        "1 medium onion, finely chopped",
+        "1 cup heavy cream",
+        "1/2 cup vegetable broth",
+        "1/2 cup grated Parmesan cheese",
+        "3 tbsp butter",
+        "2 tbsp olive oil",
+        "2 tbsp fresh thyme leaves",
+        "Salt and black pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "tags": ["vegetarian", "Italian", "pasta", "comfort", "creamy"]
+    }
+  ]
+}

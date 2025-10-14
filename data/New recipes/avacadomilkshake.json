@@ -1,0 +1,27 @@
+{
+    "recipe_name": "Healthy Avocado Milkshake",
+    "ingredients": [
+        "1 ripe avocado",
+        "1 cup low-fat milk (or almond milk)",
+        "1/2 cup Greek yogurt",
+        "1 tablespoon honey or agave syrup",
+        "1/2 teaspoon vanilla extract (optional)",
+        "Ice cubes (optional, for a chilled shake)"
+    ],
+    "instructions": [
+        "Cut the avocado in half, remove the pit, and scoop out the flesh.",
+        "Add avocado flesh, milk, and Greek yogurt to a blender.",
+        "Add honey or agave syrup for sweetness.",
+        "Add vanilla extract if using.",
+        "Blend until smooth and creamy.",
+        "Add ice cubes if desired and blend again.",
+        "Pour into a glass and enjoy immediately."
+    ],
+    "nutritional_benefits": [
+        "Rich in healthy monounsaturated fats from avocado.",
+        "Good source of potassium and fiber.",
+        "Provides protein from Greek yogurt.",
+        "Contains calcium from milk.",
+        "Natural sweetness with honey or agave syrup."
+    ]
+}

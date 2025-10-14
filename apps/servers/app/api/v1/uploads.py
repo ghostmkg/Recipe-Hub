@@ -1,1 +1,3 @@
-print('uploads.py')
+from fastapi import APIRouter
+
+router = APIRouter()

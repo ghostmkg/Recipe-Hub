@@ -1,0 +1,30 @@
+{
+    "recipe_name": "Healthy Fruit Milkshake",
+    "ingredients": [
+        "1 cup low-fat milk (or almond milk)",
+        "1/2 cup Greek yogurt",
+        "1 medium banana",
+        "1/2 cup strawberries (fresh or frozen)",
+        "1/2 cup blueberries (fresh or frozen)",
+        "1 tablespoon honey or maple syrup (optional)",
+        "1 teaspoon chia seeds",
+        "1/2 teaspoon vanilla extract (optional)",
+        "Ice cubes (optional, for thickness)"
+    ],
+    "instructions": [
+        "Add milk and Greek yogurt to a blender.",
+        "Add banana, strawberries, and blueberries to the blender.",
+        "Add honey or maple syrup if you want extra sweetness.",
+        "Add chia seeds and vanilla extract.",
+        "Blend all ingredients until smooth.",
+        "Add ice cubes if needed and blend again for a thicker shake.",
+        "Pour into a glass and serve immediately."
+    ],
+    "nutritional_benefits": [
+        "Rich in antioxidants from berries.",
+        "Good source of protein from Greek yogurt.",
+        "Contains potassium and fiber from banana.",
+        "Provides calcium from milk.",
+        "Chia seeds add omega-3 fatty acids and fiber."
+    ]
+}

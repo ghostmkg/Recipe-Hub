@@ -1,0 +1,60 @@
+{
+  "title": "Chicken Biryani",
+  "description": "A fragrant and spicy Indian rice dish made with layers of marinated chicken, basmati rice, and aromatic spices. A festive favorite loved across the world.",
+  "prep_time": "30 minutes",
+  "cook_time": "45 minutes",
+  "servings": 6,
+  "ingredients": [
+    {
+      "section": "For Chicken Marinade",
+      "items": [
+        "1 kg chicken (bone-in pieces)",
+        "1 cup plain yogurt",
+        "2 tbsp ginger-garlic paste",
+        "1 tsp turmeric powder",
+        "1.5 tsp red chili powder",
+        "1 tsp garam masala",
+        "Salt to taste",
+        "Juice of 1 lemon"
+      ]
+    },
+    {
+      "section": "For Rice",
+      "items": [
+        "2 cups basmati rice",
+        "4 cups water",
+        "2 bay leaves",
+        "4 green cardamoms",
+        "4 cloves",
+        "1 small cinnamon stick",
+        "Salt to taste"
+      ]
+    },
+    {
+      "section": "For Layering & Cooking",
+      "items": [
+        "2 large onions, thinly sliced",
+        "1/2 cup chopped mint leaves",
+        "1/2 cup chopped coriander leaves",
+        "A few strands of saffron soaked in 3 tbsp warm milk",
+        "2 tbsp ghee (clarified butter)",
+        "3 tbsp cooking oil"
+      ]
+    }
+  ],
+  "instructions": [
+    "Rinse and soak the basmati rice for 30 minutes.",
+    "Marinate the chicken with yogurt, ginger-garlic paste, turmeric, chili powder, garam masala, lemon juice, and salt. Let it sit for at least 1 hour (or overnight in the fridge).",
+    "Heat oil in a deep pan and fry the sliced onions until golden brown. Set aside half for layering.",
+    "In the same pan, add marinated chicken and cook for 10–15 minutes until partially cooked. Add half the mint and coriander.",
+    "In a separate pot, boil water with bay leaves, cardamom, cloves, cinnamon, and salt. Add soaked rice and cook until 70% done. Drain the water.",
+    "In a heavy-bottomed pot, start layering: half the chicken, half the rice, fried onions, mint, coriander, saffron milk, and ghee. Repeat the layers.",
+    "Cover the pot with a tight lid or seal with dough. Cook on low heat (dum) for 20–25 minutes.",
+    "Let it rest for 10 minutes, then gently fluff the biryani and serve hot with raita or salad."
+  ],
+  "tags": ["biryani", "chicken", "rice", "Indian", "spicy", "festive"],
+  "difficulty": "Hard",
+  "vegetarian": false,
+  "gluten_free": true,
+  "created_by": "Your Name"
+}

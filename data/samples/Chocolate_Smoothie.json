@@ -1,0 +1,23 @@
+{
+  "recipe_name": "Vegan Chocolate Smoothie",
+  "author": "Lina",
+  "category": "Vegan",
+  "description": "A creamy vegan chocolate smoothie made with almond milk and cocoa powder, perfect for a guilt-free treat.",
+  "ingredients": [
+    "1 cup almond milk",
+    "2 tablespoons cocoa powder",
+    "1 ripe banana",
+    "1 tablespoon maple syrup",
+    "Ice cubes"
+  ],
+  "instructions": [
+    "Combine almond milk, cocoa powder, banana, and maple syrup in a blender.",
+    "Blend until smooth and creamy.",
+    "Add ice cubes and blend again if desired.",
+    "Serve immediately."
+  ],
+  "prep_time": "5 minutes",
+  "servings": 1,
+  "difficulty": "Easy",
+  "tags": ["vegan", "drink", "chocolate", "healthy", "smoothie"]
+}

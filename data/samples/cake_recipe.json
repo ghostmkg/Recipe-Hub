@@ -1,0 +1,46 @@
+{
+  "Ingredients": [
+    "1 and 1/2 cups all-purpose flour",
+    "1 and 1/2 cups granulated sugar",
+    "3/4 cup unsweetened cocoa powder",
+    "1 and 1/2 teaspoons baking powder",
+    "1 and 1/2 teaspoons baking soda",
+    "1 teaspoon salt",
+    "2 large eggs",
+    "3/4 cup buttermilk",
+    "3/4 cup warm water",
+    "1/4 cup vegetable oil",
+    "2 teaspoons vanilla extract",
+    "1 cup chocolate chips (optional)"
+  ],
+  "boolean": true,
+  "color": "golden brown",
+  "null": null,
+  "number": 125,
+  "object": {
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35
+  },
+  "string": "Delicious and moist chocolate cake",
+  "recipeName": "Classic Chocolate Cake",
+  "totalTimeMinutes": 55,
+  "servings": 8,
+  "instructions": [
+    "Preheat oven to 350°F (175°C). Grease and flour a 9-inch round cake pan.",
+    "In a large bowl, sift together flour, cocoa powder, baking powder, baking soda, and salt.",
+    "In another bowl, whisk together eggs, sugar, buttermilk, warm water, vegetable oil, and vanilla extract until smooth.",
+    "Gradually add dry ingredients to wet ingredients and mix until just combined.",
+    "Fold in chocolate chips if using.",
+    "Pour batter into the prepared cake pan.",
+    "Bake for 30-35 minutes, or until a toothpick inserted in the center comes out clean.",
+    "Remove from oven and let cool in pan for 10 minutes, then transfer to a wire rack to cool completely.",
+    "Frost with your favorite chocolate frosting or enjoy as is."
+  ],
+  "tags": ["dessert", "cake", "chocolate", "baking", "classic"],
+  "difficulty": "easy",
+  "author": {
+    "name": "Anushka Gupta",
+    "email": "anushkagupta2927@gmail.com",
+    "message": "I am learning Java, Spring Boot, and open source contributions. Happy to collaborate, learn together, and grow through pair programming or project-based practice."
+  }
+}

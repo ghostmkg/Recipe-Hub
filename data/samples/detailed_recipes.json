@@ -1,0 +1,153 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Classic Spaghetti Carbonara",
+      "description": "Traditional Italian pasta dish with eggs, cheese, and pancetta",
+      "cuisine": "Italian",
+      "difficulty": "Medium",
+      "prep_time": 15,
+      "cook_time": 20,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Spaghetti",
+          "amount": "400g",
+          "notes": "Use high-quality pasta"
+        },
+        {
+          "item": "Pancetta",
+          "amount": "150g",
+          "notes": "Diced small"
+        },
+        {
+          "item": "Large eggs",
+          "amount": "3",
+          "notes": "Room temperature"
+        },
+        {
+          "item": "Pecorino Romano cheese",
+          "amount": "100g",
+          "notes": "Freshly grated"
+        },
+        {
+          "item": "Black pepper",
+          "amount": "1 tsp",
+          "notes": "Freshly ground"
+        },
+        {
+          "item": "Salt",
+          "amount": "To taste",
+          "notes": "For pasta water"
+        }
+      ],
+      "instructions": [
+        "Bring a large pot of salted water to boil for the pasta",
+        "In a large skillet, cook pancetta over medium heat until crispy (5-7 minutes)",
+        "In a bowl, whisk together eggs, grated cheese, and black pepper",
+        "Cook spaghetti according to package directions until al dente",
+        "Reserve 1 cup of pasta cooking water before draining",
+        "Add hot pasta to the skillet with pancetta",
+        "Remove from heat and quickly stir in egg mixture, adding pasta water as needed",
+        "Serve immediately with extra cheese and pepper"
+      ],
+      "tags": ["Italian", "Pasta", "Traditional", "Quick"],
+      "nutrition": {
+        "calories": 520,
+        "protein": "22g",
+        "carbs": "65g",
+        "fat": "18g"
+      },
+      "rating": 4.8,
+      "reviews": 234,
+      "created_by": "chef_mario",
+      "created_at": "2024-10-01T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "description": "Creamy and aromatic Indian curry with tender chicken pieces",
+      "cuisine": "Indian",
+      "difficulty": "Medium",
+      "prep_time": 30,
+      "cook_time": 40,
+      "servings": 6,
+      "ingredients": [
+        {
+          "item": "Chicken breast",
+          "amount": "800g",
+          "notes": "Cut into bite-sized pieces"
+        },
+        {
+          "item": "Plain yogurt",
+          "amount": "200ml",
+          "notes": "For marinade"
+        },
+        {
+          "item": "Garam masala",
+          "amount": "2 tsp",
+          "notes": "Divided"
+        },
+        {
+          "item": "Turmeric",
+          "amount": "1 tsp",
+          "notes": ""
+        },
+        {
+          "item": "Garlic",
+          "amount": "4 cloves",
+          "notes": "Minced"
+        },
+        {
+          "item": "Fresh ginger",
+          "amount": "2 tbsp",
+          "notes": "Grated"
+        },
+        {
+          "item": "Onion",
+          "amount": "1 large",
+          "notes": "Finely chopped"
+        },
+        {
+          "item": "Crushed tomatoes",
+          "amount": "400g can",
+          "notes": ""
+        },
+        {
+          "item": "Heavy cream",
+          "amount": "200ml",
+          "notes": ""
+        },
+        {
+          "item": "Basmati rice",
+          "amount": "300g",
+          "notes": "For serving"
+        }
+      ],
+      "instructions": [
+        "Marinate chicken with yogurt, 1 tsp garam masala, turmeric, salt for 30 minutes",
+        "Cook basmati rice according to package instructions",
+        "Heat oil in a large pan and cook marinated chicken until golden",
+        "Remove chicken and set aside",
+        "In the same pan, sauté onions until golden brown",
+        "Add garlic and ginger, cook for 1 minute",
+        "Add remaining garam masala and cook for 30 seconds",
+        "Add crushed tomatoes and simmer for 10 minutes",
+        "Stir in cream and return chicken to pan",
+        "Simmer for 15 minutes until chicken is cooked through",
+        "Serve hot with basmati rice and naan bread"
+      ],
+      "tags": ["Indian", "Curry", "Spicy", "Comfort Food"],
+      "nutrition": {
+        "calories": 485,
+        "protein": "35g",
+        "carbs": "28g",
+        "fat": "25g"
+      },
+      "rating": 4.7,
+      "reviews": 189,
+      "created_by": "spice_master",
+      "created_at": "2024-09-28T14:15:00Z"
+    }
+  ]
+}

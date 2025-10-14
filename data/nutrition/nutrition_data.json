@@ -1,0 +1,95 @@
+{
+  "nutrition_database": {
+    "common_ingredients": {
+      "chicken_breast": {
+        "calories_per_100g": 165,
+        "protein": "31g",
+        "carbs": "0g",
+        "fat": "3.6g",
+        "fiber": "0g",
+        "sodium": "74mg"
+      },
+      "salmon": {
+        "calories_per_100g": 208,
+        "protein": "25.4g",
+        "carbs": "0g",
+        "fat": "12.4g",
+        "omega3": "2.3g",
+        "sodium": "98mg"
+      },
+      "quinoa_cooked": {
+        "calories_per_100g": 120,
+        "protein": "4.4g",
+        "carbs": "22g",
+        "fat": "1.9g",
+        "fiber": "2.8g",
+        "iron": "1.5mg"
+      },
+      "avocado": {
+        "calories_per_100g": 160,
+        "protein": "2g",
+        "carbs": "9g",
+        "fat": "15g",
+        "fiber": "7g",
+        "potassium": "485mg"
+      },
+      "broccoli": {
+        "calories_per_100g": 34,
+        "protein": "2.8g",
+        "carbs": "7g",
+        "fat": "0.4g",
+        "fiber": "2.6g",
+        "vitamin_c": "89mg"
+      },
+      "sweet_potato": {
+        "calories_per_100g": 86,
+        "protein": "1.6g",
+        "carbs": "20g",
+        "fat": "0.1g",
+        "fiber": "3g",
+        "vitamin_a": "14187IU"
+      },
+      "olive_oil": {
+        "calories_per_tbsp": 119,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "13.5g",
+        "vitamin_e": "1.9mg"
+      },
+      "greek_yogurt": {
+        "calories_per_100g": 59,
+        "protein": "10g",
+        "carbs": "3.6g",
+        "fat": "0.4g",
+        "calcium": "110mg"
+      }
+    },
+    "dietary_guidelines": {
+      "daily_values": {
+        "calories": 2000,
+        "protein": "50g",
+        "carbs": "300g",
+        "fat": "65g",
+        "fiber": "25g",
+        "sodium": "2300mg"
+      },
+      "macronutrient_ratios": {
+        "balanced": {
+          "carbs": "45-65%",
+          "protein": "10-35%",
+          "fat": "20-35%"
+        },
+        "low_carb": {
+          "carbs": "5-10%",
+          "protein": "15-25%",
+          "fat": "70-80%"
+        },
+        "high_protein": {
+          "carbs": "30-40%",
+          "protein": "30-40%",
+          "fat": "25-35%"
+        }
+      }
+    }
+  }
+}

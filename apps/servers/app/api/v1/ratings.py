@@ -1,1 +1,3 @@
-print('ratings.py')
+from fastapi import APIRouter
+
+router = APIRouter()

@@ -1,0 +1,25 @@
+{
+  "recipe_name": "Vegan Buddha Bowl",
+  "author": "Arjun",
+  "category": "Vegan",
+  "description": "A nutrient-packed vegan bowl with quinoa, roasted vegetables, chickpeas, and tahini dressing.",
+  "ingredients": [
+    "1 cup cooked quinoa",
+    "1 cup roasted vegetables (carrot, zucchini, bell pepper)",
+    "1/2 cup cooked chickpeas",
+    "1 tablespoon olive oil",
+    "2 tablespoons tahini",
+    "Salt and pepper to taste"
+  ],
+  "instructions": [
+    "Arrange quinoa in a bowl as the base.",
+    "Add roasted vegetables and chickpeas on top.",
+    "Drizzle with olive oil and tahini.",
+    "Season with salt and pepper.",
+    "Serve immediately or chilled."
+  ],
+  "prep_time": "20 minutes",
+  "servings": 2,
+  "difficulty": "Medium",
+  "tags": ["vegan", "healthy", "bowl", "gluten-free", "lunch"]
+}

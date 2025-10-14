@@ -1,31 +1,23 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from app.core.config import settings
-from app.api.v1 import health, recipes, users, ratings, uploads
+from app.api.v1 import health, recipes, users, ratings, uploads, meal_plans
 import time
 import logging
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+app = FastAPI(title="Recipe Hub API")
 
-app = FastAPI(
-    title="Recipe Hub API",
-    description="A modern API for managing and sharing recipes",
-    version="1.0.0",
-    docs_url="/api/docs",
-    redoc_url="/api/redoc"
-)
-
-# Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.ALLOWED_ORIGINS,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Setup logging
+logger = logging.getLogger(__name__)
 
 # Middleware for request timing and logging
 @app.middleware("http")
@@ -48,14 +40,11 @@ async def http_exception_handler(request, exc):
 # Include routers
 app.include_router(health.router, prefix="/api/v1", tags=["health"])
 app.include_router(recipes.router, prefix="/api/v1", tags=["recipes"])
-app.include_router(users.router, prefix="/api/v1", tags=["users"])
+app.include_router(users.router, prefix="/api/v1/users", tags=["users"])
 app.include_router(ratings.router, prefix="/api/v1", tags=["ratings"])
 app.include_router(uploads.router, prefix="/api/v1", tags=["uploads"])
+app.include_router(meal_plans.router, prefix="/api/v1", tags=["meal-plans"])
 
 @app.get("/")
 async def root():
-    return {
-        "name": "Recipe Hub API",
-        "version": "1.0.0",
-        "documentation": "/api/docs"
-    }
+    return {"message": "Recipe Hub API is running"}

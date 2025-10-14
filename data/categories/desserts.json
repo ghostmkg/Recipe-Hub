@@ -1,0 +1,72 @@
+{
+  "dessert_recipes": [
+    {
+      "id": "d001",
+      "title": "Classic Chocolate Chip Cookies",
+      "prep_time": 15,
+      "cook_time": 12,
+      "difficulty": "Easy",
+      "servings": 24,
+      "ingredients": [
+        "2.25 cups all-purpose flour",
+        "1 tsp baking soda",
+        "1 tsp salt",
+        "1 cup butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup brown sugar",
+        "2 large eggs",
+        "2 tsp vanilla extract",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat oven to 375°F (190°C)",
+        "Mix flour, baking soda, and salt in a bowl",
+        "Cream butter and sugars until fluffy",
+        "Beat in eggs and vanilla",
+        "Gradually add flour mixture",
+        "Stir in chocolate chips",
+        "Drop rounded tablespoons onto baking sheets",
+        "Bake 9-11 minutes until golden brown"
+      ],
+      "tags": ["dessert", "cookies", "chocolate", "baking"]
+    },
+    {
+      "id": "d002",
+      "title": "Tiramisu",
+      "prep_time": 30,
+      "cook_time": 0,
+      "difficulty": "Medium",
+      "servings": 8,
+      "ingredients": [
+        "6 egg yolks",
+        "3/4 cup sugar",
+        "1.25 cups mascarpone cheese",
+        "1.75 cups heavy cream",
+        "2 packages ladyfinger cookies",
+        "1 cup strong espresso, cooled",
+        "3 tbsp coffee liqueur",
+        "Unsweetened cocoa powder"
+      ],
+      "tags": ["dessert", "Italian", "coffee", "no-bake"]
+    },
+    {
+      "id": "d003",
+      "title": "Lemon Bars",
+      "prep_time": 20,
+      "cook_time": 45,
+      "difficulty": "Medium",
+      "servings": 16,
+      "ingredients": [
+        "2 cups flour",
+        "1/2 cup powdered sugar",
+        "1 cup butter, cold",
+        "4 large eggs",
+        "1.5 cups granulated sugar",
+        "1/4 cup flour",
+        "1/2 cup fresh lemon juice",
+        "Zest of 2 lemons"
+      ],
+      "tags": ["dessert", "citrus", "bars", "tangy"]
+    }
+  ]
+}

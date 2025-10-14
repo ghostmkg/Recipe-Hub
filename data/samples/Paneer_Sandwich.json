@@ -1,0 +1,29 @@
+{
+  "recipe_name": "Paneer Sandwich",
+  "author": "Sandeep",
+  "category": "Snack",
+  "description": "A quick and delicious grilled paneer sandwich filled with spiced cottage cheese, veggies, and cheese — perfect for breakfast or evening snacks.",
+  "ingredients": [
+    "4 slices of bread (white or brown)",
+    "100g paneer (cottage cheese), grated",
+    "1 small onion, finely chopped",
+    "1 small tomato, finely chopped",
+    "1 green chili, finely chopped (optional)",
+    "1 tablespoon green chutney or mayonnaise",
+    "1 teaspoon red chili flakes",
+    "Salt to taste",
+    "Butter for toasting"
+  ],
+  "instructions": [
+    "In a bowl, mix grated paneer, chopped onion, tomato, chili, salt, and red chili flakes.",
+    "Spread green chutney or mayonnaise on each bread slice.",
+    "Add the paneer mixture on one slice and cover it with another slice.",
+    "Apply butter on the outer sides of the sandwich.",
+    "Grill or toast the sandwich until golden brown and crisp.",
+    "Cut diagonally and serve hot with tomato ketchup or chutney."
+  ],
+  "prep_time": "10 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["snack", "breakfast", "sandwich", "quick", "paneer"]
+}

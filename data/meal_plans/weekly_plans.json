@@ -1,0 +1,132 @@
+{
+  "weekly_meal_plans": [
+    {
+      "id": "mp001",
+      "title": "Healthy Family Week",
+      "description": "Balanced meals for a family of 4",
+      "duration": "7 days",
+      "target_audience": "families",
+      "dietary_preferences": ["balanced", "kid-friendly"],
+      "total_calories_per_day": 2000,
+      "meal_plan": {
+        "monday": {
+          "breakfast": {
+            "recipe_id": "b001",
+            "title": "Fluffy Pancakes",
+            "calories": 320
+          },
+          "lunch": {
+            "recipe_id": "v001",
+            "title": "Mediterranean Quinoa Bowl",
+            "calories": 450
+          },
+          "dinner": {
+            "recipe_id": "1",
+            "title": "Spaghetti Carbonara",
+            "calories": 520
+          },
+          "snack": {
+            "title": "Apple with almond butter",
+            "calories": 190
+          }
+        },
+        "tuesday": {
+          "breakfast": {
+            "recipe_id": "b002",
+            "title": "Avocado Toast with Poached Egg",
+            "calories": 350
+          },
+          "lunch": {
+            "recipe_id": "v003",
+            "title": "Black Bean Tacos",
+            "calories": 420
+          },
+          "dinner": {
+            "recipe_id": "2",
+            "title": "Chicken Tikka Masala",
+            "calories": 485
+          },
+          "snack": {
+            "title": "Greek yogurt with berries",
+            "calories": 150
+          }
+        },
+        "wednesday": {
+          "breakfast": {
+            "recipe_id": "b003",
+            "title": "Overnight Oats",
+            "calories": 280
+          },
+          "lunch": {
+            "title": "Grilled chicken salad",
+            "calories": 380
+          },
+          "dinner": {
+            "recipe_id": "v002",
+            "title": "Mushroom Risotto",
+            "calories": 440
+          },
+          "snack": {
+            "title": "Mixed nuts",
+            "calories": 200
+          }
+        }
+      },
+      "grocery_list": [
+        {
+          "category": "Proteins",
+          "items": [
+            "Chicken breast - 800g",
+            "Eggs - 1 dozen",
+            "Greek yogurt - 500g",
+            "Almond butter - 1 jar"
+          ]
+        },
+        {
+          "category": "Grains",
+          "items": [
+            "Quinoa - 500g",
+            "Rolled oats - 500g",
+            "Arborio rice - 300g",
+            "Whole grain bread - 1 loaf"
+          ]
+        },
+        {
+          "category": "Vegetables",
+          "items": [
+            "Avocados - 4",
+            "Mixed mushrooms - 300g",
+            "Cucumber - 2",
+            "Tomatoes - 4",
+            "Red onion - 2"
+          ]
+        },
+        {
+          "category": "Pantry",
+          "items": [
+            "Olive oil",
+            "Coconut milk",
+            "Spices (garam masala, cumin)",
+            "Maple syrup"
+          ]
+        }
+      ],
+      "prep_tips": [
+        "Prepare overnight oats the night before",
+        "Cook quinoa in bulk for the week",
+        "Wash and chop vegetables for easy assembly",
+        "Marinate chicken for tikka masala a day ahead"
+      ]
+    },
+    {
+      "id": "mp002",
+      "title": "Quick & Easy Work Week",
+      "description": "30-minute meals for busy professionals",
+      "duration": "5 days",
+      "target_audience": "professionals",
+      "dietary_preferences": ["quick", "minimal-prep"],
+      "total_calories_per_day": 1800,
+      "focus": "time-saving recipes under 30 minutes"
+    }
+  ]
+}

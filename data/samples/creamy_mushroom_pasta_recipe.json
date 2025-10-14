@@ -1,0 +1,113 @@
+{
+  "id": "v004",
+  "title": "Creamy Mushroom Pasta",
+  "description": "A rich and creamy pasta dish featuring mixed mushrooms in a velvety sauce. Perfect for a comforting vegetarian dinner that's ready in just 30 minutes.",
+  "cuisine": "Italian",
+  "difficulty": "Easy",
+  "prep_time": 10,
+  "cook_time": 20,
+  "servings": 4,
+  "ingredients": [
+    {
+      "item": "Fettuccine pasta",
+      "amount": "400g",
+      "notes": "Can substitute with any long pasta like linguine or spaghetti"
+    },
+    {
+      "item": "Mixed mushrooms",
+      "amount": "300g",
+      "notes": "Use cremini, shiitake, and button mushrooms for best flavor"
+    },
+    {
+      "item": "Garlic",
+      "amount": "3 cloves",
+      "notes": "Minced finely"
+    },
+    {
+      "item": "Onion",
+      "amount": "1 medium",
+      "notes": "Finely chopped"
+    },
+    {
+      "item": "Heavy cream",
+      "amount": "1 cup",
+      "notes": "Can substitute with half-and-half for lighter version"
+    },
+    {
+      "item": "Vegetable broth",
+      "amount": "1/2 cup",
+      "notes": "Low-sodium preferred"
+    },
+    {
+      "item": "Parmesan cheese",
+      "amount": "1/2 cup",
+      "notes": "Freshly grated for best flavor"
+    },
+    {
+      "item": "Butter",
+      "amount": "3 tbsp",
+      "notes": "Unsalted"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "2 tbsp",
+      "notes": "Extra virgin"
+    },
+    {
+      "item": "Fresh thyme",
+      "amount": "2 tbsp",
+      "notes": "Leaves only, can substitute with 1 tsp dried thyme"
+    },
+    {
+      "item": "Salt",
+      "amount": "To taste",
+      "notes": "Sea salt preferred"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "To taste",
+      "notes": "Freshly ground"
+    },
+    {
+      "item": "Fresh parsley",
+      "amount": "2 tbsp",
+      "notes": "Chopped, for garnish"
+    }
+  ],
+  "instructions": [
+    "Bring a large pot of salted water to boil. Add the fettuccine and cook according to package directions until al dente. Reserve 1/2 cup of pasta water before draining.",
+    "While pasta cooks, clean and slice the mushrooms. Heat olive oil and 1 tbsp butter in a large skillet over medium-high heat.",
+    "Add the mushrooms to the skillet and cook for 5-6 minutes until they release their moisture and start to brown. Season with salt and pepper.",
+    "Add the chopped onion and cook for 2-3 minutes until softened. Add the minced garlic and thyme, cooking for 1 minute until fragrant.",
+    "Reduce heat to medium and add the remaining 2 tbsp butter. Once melted, add the heavy cream and vegetable broth. Bring to a gentle simmer.",
+    "Add the grated Parmesan cheese and stir until melted and smooth. Season with salt and pepper to taste.",
+    "Add the drained pasta to the sauce and toss to combine. If the sauce is too thick, add reserved pasta water a little at a time until desired consistency is reached.",
+    "Garnish with fresh parsley and serve immediately with extra Parmesan cheese on the side."
+  ],
+  "tags": ["vegetarian", "Italian", "pasta", "comfort", "creamy", "mushroom", "30-minute", "dinner"],
+  "nutrition": {
+    "calories": 485,
+    "protein": "18g",
+    "carbs": "52g",
+    "fat": "24g",
+    "fiber": "3g",
+    "sodium": "420mg"
+  },
+  "tips": [
+    "Don't wash mushrooms under water - clean them with a damp paper towel to prevent them from becoming soggy",
+    "Cook mushrooms in batches if your pan is small to ensure they brown properly",
+    "Reserve pasta water - the starchy water helps bind the sauce to the pasta",
+    "Add a splash of white wine to the sauce for extra depth of flavor",
+    "For a vegan version, substitute heavy cream with coconut cream and use nutritional yeast instead of Parmesan"
+  ],
+  "variations": [
+    "Add spinach or arugula in the last minute of cooking for extra greens",
+    "Top with toasted pine nuts or walnuts for added crunch",
+    "Add sun-dried tomatoes for a burst of umami flavor",
+    "Use different mushroom varieties like porcini or morel for special occasions"
+  ],
+  "created_by": "Hacktoberfest Contributor",
+  "created_at": "2024-10-07",
+  "rating": 4.8,
+  "reviews_count": 0
+}

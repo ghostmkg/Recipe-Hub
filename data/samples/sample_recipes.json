@@ -1,16 +1,45 @@
 {
-  "array": [
-    1,
-    2,
-    3
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "category": "Italian",
+      "difficulty": "medium",
+      "prepTime": "30 minutes",
+      "ingredients": [
+        "400g spaghetti",
+        "200g pancetta",
+        "4 large eggs",
+        "100g Pecorino Romano cheese",
+        "100g Parmigiano-Reggiano",
+        "Black pepper"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Chicken Curry",
+      "category": "Indian",
+      "difficulty": "medium",
+      "prepTime": "45 minutes",
+      "ingredients": [
+        "500g chicken",
+        "2 onions",
+        "3 tomatoes",
+        "Curry spices",
+        "400ml coconut milk"
+      ]
+    }
   ],
-  "boolean": true,
-  "color": "gold",
-  "null": null,
-  "number": 123,
-  "object": {
-    "a": "b",
-    "c": "d"
-  },
-  "string": "Hello World"
+  "categories": [
+    "Italian",
+    "Indian",
+    "Chinese",
+    "Mexican",
+    "American",
+    "Mediterranean",
+    "Japanese",
+    "Thai",
+    "French",
+    "Vegetarian"
+  ]
 }

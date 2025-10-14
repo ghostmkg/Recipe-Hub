@@ -1,0 +1,129 @@
+/* Global reset and base styles */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body { 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+  line-height: 1.6; 
+  color: #333; 
+}
+
+.App { 
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+main { 
+  flex: 1; 
+  padding: 0; 
+}
+
+/* Hero section styles */
+.hero { 
+  text-align: center; 
+  padding: 6rem 2rem; 
+  color: white; 
+}
+
+.hero h1 { 
+  font-size: 3.5rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem; 
+}
+
+.hero p { 
+  font-size: 1.2rem; 
+  opacity: 0.9; 
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+/* Search section styles */
+.search { 
+  background: white; 
+  padding: 3rem 2rem; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.search-bar { 
+  display: flex; 
+  max-width: 500px; 
+  width: 100%; 
+  border-radius: 50px; 
+  overflow: hidden; 
+}
+
+.search-input { 
+  flex: 1; 
+  padding: 1rem 1.5rem; 
+  border: none; 
+  font-size: 1rem; 
+  outline: none; 
+  background: #f8f9fa;
+}
+
+.search-btn { 
+  padding: 1rem 1.5rem; 
+  background: #667eea; 
+  border: none; 
+  color: white; 
+  font-size: 1.2rem; 
+}
+
+/* Submit section styles */
+.submit-section { 
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); 
+  padding: 4rem 2rem; 
+  text-align: center; 
+}
+
+.submit-btn { 
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+  color: white; 
+  padding: 1rem 2.5rem; 
+  border: none; 
+  border-radius: 50px; 
+  font-size: 1.1rem; 
+  cursor: pointer; 
+}
+
+/* Recipe card styles */
+.recipe-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.5rem; }
+  .hero p { font-size: 1rem; }
+  .search { padding: 2rem 1rem; }
+  .search-bar { border-radius: 25px; }
+  .submit-content h2 { font-size: 2rem; }
+  .submit-content p { font-size: 1rem; }
+  .submit-btn { padding: 0.8rem 2rem; font-size: 1rem; }
+}

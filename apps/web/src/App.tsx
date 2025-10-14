@@ -1,36 +1,38 @@
-import React, { useState } from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import GreetUser from './components/GreetUser';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import RecipeDetail from './pages/RecipeDetail'
+import SubmitRecipe from './pages/SubmitRecipe'
+import './App.css'
 
-interface AppProps {
-  appName: string;
+function App() {
+  return (
+    <Router>
+      <div className="min-h-screen bg-gray-50">
+        <nav className="bg-white shadow-sm border-b">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between h-16">
+              <div className="flex items-center">
+                <h1 className="text-xl font-bold text-gray-900">🍲 Recipe Hub</h1>
+              </div>
+              <div className="flex items-center space-x-4">
+                <a href="/" className="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="/submit" className="text-gray-700 hover:text-gray-900">Submit Recipe</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        
+        <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/recipe/:id" element={<RecipeDetail />} />
+            <Route path="/submit" element={<SubmitRecipe />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
+  )
 }
 
-const App: React.FC<AppProps> = ({ appName }) => {
-  const [count, setCount] = useState<number>(0);
-
-  const incrementCount = () => {
-    setCount(prevCount => prevCount + 1);
-  };
-
-  const decrementCount = () => {
-    setCount(prevCount => (prevCount > 0 ? prevCount - 1 : 0));
-  };
-
-  return (
-    <div className="App">
-      <Header title={appName} />
-      <main>
-        <GreetUser name="Alice" />
-        <p>Current Count: {count}</p>
-        <button onClick={incrementCount}>Increment</button>
-        <button onClick={decrementCount}>Decrement</button>
-      </main>
-      <Footer year={new Date().getFullYear()} />
-    </div>
-  );
-};
-
-export default App;
+export default App

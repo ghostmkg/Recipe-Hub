@@ -1,0 +1,53 @@
+{
+  "breakfast_recipes": [
+    {
+      "id": "b001",
+      "title": "Fluffy Pancakes",
+      "prep_time": 10,
+      "cook_time": 15,
+      "difficulty": "Easy",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 tbsp sugar",
+        "2 tsp baking powder",
+        "1 tsp salt",
+        "2 large eggs",
+        "1.5 cups milk",
+        "4 tbsp melted butter"
+      ],
+      "tags": ["breakfast", "pancakes", "easy", "family-friendly"]
+    },
+    {
+      "id": "b002",
+      "title": "Avocado Toast with Poached Egg",
+      "prep_time": 5,
+      "cook_time": 10,
+      "difficulty": "Easy",
+      "ingredients": [
+        "2 slices whole grain bread",
+        "1 ripe avocado",
+        "2 fresh eggs",
+        "1 tbsp white vinegar",
+        "Salt and pepper to taste",
+        "Red pepper flakes (optional)"
+      ],
+      "tags": ["breakfast", "healthy", "avocado", "protein"]
+    },
+    {
+      "id": "b003",
+      "title": "Overnight Oats",
+      "prep_time": 5,
+      "cook_time": 0,
+      "difficulty": "Easy",
+      "ingredients": [
+        "1/2 cup rolled oats",
+        "1/2 cup milk of choice",
+        "1 tbsp chia seeds",
+        "1 tbsp maple syrup",
+        "1/2 cup berries",
+        "1 tbsp almond butter"
+      ],
+      "tags": ["breakfast", "no-cook", "healthy", "meal-prep"]
+    }
+  ]
+}

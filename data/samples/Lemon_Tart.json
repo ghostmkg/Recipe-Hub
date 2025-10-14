@@ -1,0 +1,25 @@
+{
+  "recipe_name": "Lemon Tart",
+  "author": "Emma",
+  "category": "Desserts",
+  "description": "A tangy and sweet lemon tart with buttery crust and smooth lemon filling — perfect for dessert lovers.",
+  "ingredients": [
+    "1 pre-made tart shell",
+    "1/2 cup sugar",
+    "3 large eggs",
+    "1/2 cup lemon juice",
+    "1 tablespoon lemon zest",
+    "1/4 cup butter"
+  ],
+  "instructions": [
+    "Preheat oven to 350°F (175°C).",
+    "In a bowl, whisk together eggs, sugar, lemon juice, and zest.",
+    "Melt butter and mix into lemon mixture.",
+    "Pour into tart shell and bake 25-30 minutes until set.",
+    "Cool and serve chilled."
+  ],
+  "prep_time": "40 minutes",
+  "servings": 6,
+  "difficulty": "Medium",
+  "tags": ["dessert", "lemon", "tart", "baking", "sweet"]
+}
