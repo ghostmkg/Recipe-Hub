@@ -1,2 +1,15 @@
-__pycache__
+# Python
+__pycache__/
+venv/
+
+# Node
+node_modules/
+package-lock.json
+postcss.config.js
+
+# Build or system files
+*.log
+.DS_Store
+
+# Database
 recipehub.db

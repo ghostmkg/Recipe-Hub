@@ -1,5 +1,9 @@
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
+/* Global reset and base styles */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
 
 body { 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
@@ -19,7 +23,7 @@ main {
   padding: 0; 
 }
 
-
+/* Hero section styles */
 .hero { 
   text-align: center; 
   padding: 6rem 2rem; 
@@ -39,7 +43,7 @@ main {
   margin: 0 auto;
 }
 
-
+/* Search section styles */
 .search { 
   background: white; 
   padding: 3rem 2rem; 
@@ -64,7 +68,6 @@ main {
   background: #f8f9fa;
 }
 
-
 .search-btn { 
   padding: 1rem 1.5rem; 
   background: #667eea; 
@@ -73,13 +76,12 @@ main {
   font-size: 1.2rem; 
 }
 
-
+/* Submit section styles */
 .submit-section { 
   background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); 
   padding: 4rem 2rem; 
   text-align: center; 
 }
-
 
 .submit-btn { 
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
@@ -91,7 +93,31 @@ main {
   cursor: pointer; 
 }
 
+/* Recipe card styles */
+.recipe-card {
+  transition: transform 0.2s ease-in-out;
+}
 
+.recipe-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Responsive styles */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
   .hero p { font-size: 1rem; }
