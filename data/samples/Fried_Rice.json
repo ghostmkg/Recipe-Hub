@@ -1,0 +1,33 @@
+{
+  "recipe_name": "Fried Rice",
+  "author": "Joyston Monteiro",
+  "category": "Main Course",
+  "description": "A flavorful and quick stir-fried rice dish made with cooked rice, vegetables, soy sauce, and spices — perfect for lunch or dinner.",
+  "ingredients": [
+    "2 cups cooked rice (preferably a day old)",
+    "2 tablespoons oil",
+    "1 small onion, finely chopped",
+    "1/2 cup mixed vegetables (carrots, beans, peas, corn)",
+    "2 eggs (optional)",
+    "2 tablespoons soy sauce",
+    "1 teaspoon vinegar",
+    "Salt to taste",
+    "Black pepper to taste",
+    "Chopped spring onions for garnish"
+  ],
+  "instructions": [
+    "Heat oil in a large pan or wok over medium-high heat.",
+    "Scramble the eggs, then remove and set aside.",
+    "Add onions and sauté until translucent.",
+    "Add the mixed vegetables and stir-fry for 3–4 minutes.",
+    "Add cooked rice, soy sauce, vinegar, salt, and pepper.",
+    "Toss everything well and cook for another 2 minutes.",
+    "Add the scrambled eggs back, mix well, and garnish with chopped spring onions.",
+    "Serve hot and enjoy!"
+  ],
+  "prep_time": "10 minutes",
+  "cook_time": "20 minutes",
+  "servings": 2,
+  "difficulty": "Medium",
+  "tags": ["rice", "asian", "quick meal", "dinner", "stir-fry"]
+}
