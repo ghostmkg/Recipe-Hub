@@ -1,0 +1,38 @@
+{
+  "id": "vg001",
+  "title": "Creamy Vegan Tomato Basil Pasta",
+  "description": "A rich, dairy-free creamy tomato basil pasta made with coconut or cashew cream.",
+  "cuisine": "Italian",
+  "difficulty": "Easy",
+  "prep_time": 10,
+  "cook_time": 20,
+  "servings": 4,
+  "ingredients": [
+    { "item": "Pasta (penne/fusilli)", "amount": "400g" },
+    { "item": "Olive oil", "amount": "1 tbsp" },
+    { "item": "Onion", "amount": "1 medium", "notes": "Finely chopped" },
+    { "item": "Garlic", "amount": "3 cloves", "notes": "Minced" },
+    { "item": "Crushed tomatoes", "amount": "400g (1 can)" },
+    { "item": "Coconut cream or cashew cream", "amount": "1 cup" },
+    { "item": "Vegetable broth", "amount": "1/2 cup" },
+    { "item": "Dried oregano", "amount": "1 tsp" },
+    { "item": "Dried basil", "amount": "1 tsp" },
+    { "item": "Chili flakes", "amount": "1/2 tsp", "notes": "Optional" },
+    { "item": "Salt and pepper", "amount": "To taste" },
+    { "item": "Fresh basil", "amount": "Handful", "notes": "For garnish" }
+  ],
+  "instructions": [
+    "Cook pasta in salted boiling water until al dente. Reserve 1/2 cup pasta water, then drain.",
+    "Heat olive oil in a skillet. Sauté onion for 3-4 minutes until translucent; add garlic and cook 1 minute.",
+    "Add crushed tomatoes, broth, oregano, basil, and chili flakes. Simmer 5 minutes.",
+    "Stir in coconut/cashew cream. Simmer 2-3 minutes. Season with salt and pepper.",
+    "Toss in cooked pasta; add a splash of reserved pasta water if needed to loosen the sauce.",
+    "Garnish with fresh basil and serve warm."
+  ],
+  "tags": ["vegan", "pasta", "dairy-free", "quick", "weeknight"],
+  "nutrition": { "calories": 480, "protein": "13g", "carbs": "65g", "fat": "18g" },
+  "created_by": "Hacktoberfest Contributor",
+  "created_at": "2025-10-15"
+}
+
+

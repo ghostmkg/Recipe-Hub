@@ -1,0 +1,29 @@
+{
+  "vegan_recipes": [
+    {
+      "id": "vg001",
+      "title": "Creamy Vegan Tomato Basil Pasta",
+      "prep_time": 10,
+      "cook_time": 20,
+      "difficulty": "Easy",
+      "servings": 4,
+      "ingredients": [
+        "400g penne or fusilli (vegan)",
+        "1 tbsp olive oil",
+        "1 medium onion, finely chopped",
+        "3 cloves garlic, minced",
+        "400g canned crushed tomatoes",
+        "1 cup coconut cream or cashew cream",
+        "1/2 cup vegetable broth",
+        "1 tsp dried oregano",
+        "1 tsp dried basil",
+        "1/2 tsp chili flakes (optional)",
+        "Salt and pepper to taste",
+        "Fresh basil leaves for garnish"
+      ],
+      "tags": ["vegan", "pasta", "dairy-free", "quick", "dinner"]
+    }
+  ]
+}
+
+
