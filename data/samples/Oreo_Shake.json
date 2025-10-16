@@ -1,0 +1,54 @@
+{
+  "recipe_name": "Oreo Shake",
+  "category": "Beverage",
+  "servings": 2,
+  "prep_time_minutes": 10,
+  "ingredients": [
+    {
+      "item": "Oreo cookies",
+      "quantity": 6,
+      "unit": "pieces"
+    },
+    {
+      "item": "Milk",
+      "quantity": 2,
+      "unit": "cups"
+    },
+    {
+      "item": "Vanilla ice cream",
+      "quantity": 2,
+      "unit": "scoops"
+    },
+    {
+      "item": "Sugar (optional)",
+      "quantity": 1,
+      "unit": "tablespoon"
+    },
+    {
+      "item": "Whipped cream (for topping)",
+      "quantity": 2,
+      "unit": "tablespoons"
+    },
+    {
+      "item": "Crushed Oreo (for garnish)",
+      "quantity": 1,
+      "unit": "piece"
+    }
+  ],
+  "instructions": [
+    "Add Oreo cookies, milk, vanilla ice cream, and sugar into a blender.",
+    "Blend until smooth and creamy.",
+    "Pour the shake into chilled glasses.",
+    "Top with whipped cream and crushed Oreo pieces.",
+    "Serve immediately and enjoy!"
+  ],
+  "nutrition_info_per_serving": {
+    "calories": 350,
+    "protein_g": 6,
+    "carbohydrates_g": 50,
+    "fat_g": 15,
+    "sugar_g": 35
+  },
+  "tags": ["drink", "dessert", "easy", "oreo", "milkshake"],
+  "author": "Sunidhi Srivastava"
+}
