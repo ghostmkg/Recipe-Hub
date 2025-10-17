@@ -1,0 +1,27 @@
+{
+  "recipe_name": "Oreo Shake",
+  "author": "Mayur Galhate",
+  "category": "Beverage",
+  "description": "A creamy, chocolaty shake made with Oreo cookies, milk, and ice cream — a perfect chilled treat for any time of day.",
+  "ingredients": [
+    "6 Oreo biscuits",
+    "2 cups chilled milk",
+    "2 scoops vanilla ice cream",
+    "1 tablespoon sugar (optional)",
+    "Whipped cream (for topping)",
+    "Crushed Oreo (for garnish)",
+    "Chocolate syrup (optional, for decoration)"
+  ],
+  "instructions": [
+    "Add Oreo biscuits, milk, ice cream, and sugar into a blender.",
+    "Blend until smooth and creamy.",
+    "Drizzle chocolate syrup inside a glass if desired.",
+    "Pour the shake into the glass.",
+    "Top with whipped cream and crushed Oreo pieces.",
+    "Serve immediately and enjoy your Oreo Shake!"
+  ],
+  "prep_time": "5 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["shake", "dessert", "beverage", "chocolate", "summer"]
+}
