@@ -1,0 +1,35 @@
+{
+  "recipe_name": "Classic Italian Margherita Pizza",
+  "author": "Anshul Saxena",
+  "category": "Main Course",
+  "description": "A traditional Italian-style Margherita pizza with a crispy thin crust, rich tomato sauce, fresh mozzarella, and basil leaves — the pure essence of authentic Italian simplicity.",
+  "ingredients": [
+    "2 cups all-purpose flour",
+    "1 teaspoon instant yeast",
+    "1 teaspoon sugar",
+    "1 teaspoon salt",
+    "3/4 cup warm water",
+    "1 tablespoon olive oil",
+    "1/2 cup tomato sauce (preferably homemade or Italian-style)",
+    "150g fresh mozzarella cheese, sliced",
+    "Fresh basil leaves",
+    "1 tablespoon olive oil (for brushing)",
+    "1/2 teaspoon dried oregano (optional)"
+  ],
+  "instructions": [
+    "In a large bowl, mix flour, yeast, sugar, and salt together.",
+    "Add warm water and olive oil, then knead into a smooth dough for 8–10 minutes.",
+    "Cover the dough and let it rest for 1–1.5 hours until it doubles in size.",
+    "Preheat the oven to 250°C (480°F) or as high as possible.",
+    "Punch down the dough, roll it out into a thin circle, and place it on a pizza tray.",
+    "Spread tomato sauce evenly over the base, leaving the edges untouched.",
+    "Arrange mozzarella slices and fresh basil leaves on top.",
+    "Drizzle a little olive oil and sprinkle oregano if desired.",
+    "Bake for 7–10 minutes or until the crust is golden and cheese is bubbling.",
+    "Slice and serve hot — straight from the oven!"
+  ],
+  "prep_time": "1 hour 45 minutes (including dough rest time)",
+  "servings": 2,
+  "difficulty": "Medium",
+  "tags": ["italian", "pizza", "main-course", "homemade", "vegetarian"]
+}
