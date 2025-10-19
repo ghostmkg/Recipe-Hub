@@ -1,0 +1,27 @@
+{
+  "recipe_name": "Aam Panna",
+  "author": "Josan",
+  "category": "Beverage",
+  "description": "A tangy-sweet North Indian summer drink made from raw mangoes, sugar, and spices — known for its cooling properties.",
+  "ingredients": [
+    "2 medium raw mangoes",
+    "1/2 cup sugar (adjust to taste)",
+    "1/2 teaspoon roasted cumin powder",
+    "1/4 teaspoon black salt",
+    "1/4 teaspoon regular salt",
+    "8-10 mint leaves",
+    "2 cups cold water",
+    "Ice cubes (as needed)"
+  ],
+  "instructions": [
+    "Boil or roast the raw mangoes until soft. Let them cool, then peel and extract the pulp.",
+    "In a blender, add mango pulp, sugar, cumin powder, black salt, regular salt, and mint leaves.",
+    "Blend into a smooth paste.",
+    "Add cold water and ice cubes, then blend again to mix.",
+    "Serve chilled with a mint garnish or a sprinkle of cumin powder."
+  ],
+  "prep_time": "15 minutes",
+  "servings": 3,
+  "difficulty": "Easy",
+  "tags": ["mango", "indian", "summer", "refreshing", "tangy", "traditional"]
+}

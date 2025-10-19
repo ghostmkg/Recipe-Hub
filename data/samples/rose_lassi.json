@@ -1,0 +1,25 @@
+{
+  "recipe_name": "Rose Lassi",
+  "author": "Josan",
+  "category": "Beverage",
+  "description": "A fragrant, creamy yogurt-based drink infused with rose syrup — a floral twist on the traditional Punjabi lassi.",
+  "ingredients": [
+    "1 cup plain yogurt (chilled)",
+    "1/2 cup cold water or milk",
+    "2 tablespoons rose syrup",
+    "1 tablespoon sugar (optional)",
+    "Ice cubes (as needed)",
+    "Chopped pistachios or rose petals (for garnish)"
+  ],
+  "instructions": [
+    "In a blender, combine yogurt, cold water or milk, rose syrup, and sugar.",
+    "Blend until smooth and frothy.",
+    "Add ice cubes and blend again briefly.",
+    "Pour into glasses and garnish with chopped pistachios or edible rose petals.",
+    "Serve immediately."
+  ],
+  "prep_time": "5 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["lassi", "rose", "yogurt", "indian", "summer", "refreshing"]
+}

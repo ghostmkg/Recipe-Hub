@@ -1,0 +1,30 @@
+{
+  "recipe_name": "Thandai",
+  "author": "Josan",
+  "category": "Beverage",
+  "description": "A festive Indian drink made with milk and a rich blend of nuts and spices — traditionally served during Holi and Maha Shivratri.",
+  "ingredients": [
+    "2 cups chilled milk",
+    "2 tablespoons sugar (adjust to taste)",
+    "10 almonds (soaked & peeled)",
+    "5 cashews",
+    "1 tablespoon melon seeds",
+    "1/2 teaspoon fennel seeds",
+    "4 black peppercorns",
+    "4 green cardamom pods",
+    "A few strands of saffron",
+    "1/2 teaspoon rose water (optional)",
+    "Ice cubes (optional)"
+  ],
+  "instructions": [
+    "Grind almonds, cashews, melon seeds, fennel, peppercorns, and cardamom into a fine paste using a little milk.",
+    "In a bowl, mix this paste with chilled milk and sugar. Add saffron and rose water.",
+    "Stir well or blend lightly for a smoother consistency.",
+    "Refrigerate for 30 minutes to let flavors infuse (optional).",
+    "Strain if desired, then serve chilled with saffron strands or crushed nuts on top."
+  ],
+  "prep_time": "20 minutes",
+  "servings": 2,
+  "difficulty": "Medium",
+  "tags": ["festival", "milk", "indian", "thandai", "traditional", "spiced"]
+}
