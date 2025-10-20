@@ -1,0 +1,50 @@
+{
+  "rare_fruit_shakes": [
+    {
+      "name": "Dragon Fruit Kiwi Detox Shake",
+      "description": "A vibrant antioxidant-rich shake combining the exotic flavors of dragon fruit and kiwi for a refreshing tropical boost.",
+      "ingredients": [
+        "1 cup red dragon fruit (pitaya), peeled and cubed",
+        "1 kiwi, peeled and sliced",
+        "1/2 banana",
+        "1 cup coconut water",
+        "1 tablespoon honey or agave syrup",
+        "1/2 teaspoon chia seeds",
+        "4-5 ice cubes"
+      ],
+      "instructions": [
+        "Add all ingredients into a blender.",
+        "Blend until smooth and frothy.",
+        "Pour into a chilled glass and top with extra kiwi slices."
+      ],
+      "health_benefits": [
+        "Rich in Vitamin C and antioxidants",
+        "Boosts digestion and hydration",
+        "Supports skin health"
+      ]
+    },
+    {
+      "name": "Mangosteen Lychee Energy Shake",
+      "description": "A creamy, tropical fusion combining mangosteen and lychee with nut milk for a naturally sweet, nutrient-packed energy shake.",
+      "ingredients": [
+        "1/2 cup mangosteen segments (fresh or frozen)",
+        "1/2 cup lychee (peeled and pitted)",
+        "1 cup almond milk or coconut milk",
+        "1 tablespoon rolled oats",
+        "1/2 teaspoon vanilla extract",
+        "1 teaspoon flax seeds",
+        "Few ice cubes"
+      ],
+      "instructions": [
+        "Combine all ingredients in a blender.",
+        "Blend until silky-smooth.",
+        "Serve chilled, optionally garnished with crushed lychee or mint leaves."
+      ],
+      "health_benefits": [
+        "Superb source of micronutrients and antioxidants",
+        "Promotes energy and immune balance",
+        "Improves gut and skin health"
+      ]
+    }
+  ]
+}
