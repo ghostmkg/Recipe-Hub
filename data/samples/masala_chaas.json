@@ -1,0 +1,29 @@
+{
+  "recipe_name": "Masala Chaas",
+  "author": "Josan",
+  "category": "Beverage",
+  "description": "A classic Indian spiced buttermilk, flavored with roasted cumin, ginger, and herbs — cooling and perfect for digestion.",
+  "ingredients": [
+    "1 cup plain yogurt",
+    "2 cups cold water",
+    "1/2 teaspoon roasted cumin powder",
+    "1/2 teaspoon grated ginger",
+    "Salt to taste",
+    "A pinch of black salt (optional)",
+    "2 tablespoons chopped coriander leaves",
+    "4-5 mint leaves",
+    "1 green chili (optional, finely chopped)"
+  ],
+  "instructions": [
+    "In a blender, add yogurt, cold water, roasted cumin powder, grated ginger, salt, and black salt.",
+    "Blend until smooth and frothy.",
+    "Add chopped coriander, mint leaves, and green chili.",
+    "Stir gently and pour into glasses.",
+    "Garnish with a sprinkle of cumin powder or a mint leaf.",
+    "Serve chilled."
+  ],
+  "prep_time": "10 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["drink", "buttermilk", "indian", "summer", "digestive", "refreshing"]
+}
