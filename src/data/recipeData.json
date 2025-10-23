@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "title": "Chocolate Cake",
+  "description": "Rich and moist chocolate cake with frosting.",
+  "ingredients": ["Flour", "Sugar", "Cocoa powder", "Eggs"],
+  "instructions": "Mix, bake at 180°C for 30 minutes.",
+  "media": [
+    {
+      "type": "image",
+      "url": "/uploads/cake1.jpg",
+      "caption": "Step 1: Mix ingredients"
+    },
+    {
+      "type": "image",
+      "url": "/uploads/cake2.jpg",
+      "caption": "Step 2: Bake"
+    },
+    {
+      "type": "video",
+      "url": "/uploads/cake-video.mp4",
+      "caption": "Watch the process"
+    }
+  ]
+}
