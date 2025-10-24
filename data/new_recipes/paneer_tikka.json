@@ -1,0 +1,23 @@
+{
+  "title": "Paneer Tikka",
+  "category": "Indian",
+  "difficulty": "Medium",
+  "prep_time": "30 mins",
+  "cook_time": "20 mins",
+  "ingredients": [
+    "200g paneer cubes",
+    "1 cup yogurt",
+    "1 tbsp red chili powder",
+    "1 tbsp ginger garlic paste",
+    "Salt to taste",
+    "1 tbsp lemon juice"
+  ],
+  "steps": [
+    "Mix all ingredients into a bowl to make marinade.",
+    "Add paneer cubes and let it rest for 15 minutes.",
+    "Grill on medium heat until golden brown.",
+    "Serve hot with mint chutney."
+  ],
+  "author": "Sohum Seth",
+  "created_at": "2025-10-24"
+}
