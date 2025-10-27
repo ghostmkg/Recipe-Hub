@@ -1,0 +1,136 @@
+{
+  "recipes": [
+    {
+      "id": 4,
+      "title": "Chole Bhature",
+      "description": "A classic North Indian dish featuring spicy, tangy chickpeas (chole) served with soft and fluffy deep-fried bread (bhature) — a festive favorite full of flavor and warmth.",
+      "cuisine": "Indian",
+      "difficulty": "Medium",
+      "prep_time": 30,
+      "cook_time": 45,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Dried chickpeas (chole)",
+          "amount": "1 cup",
+          "notes": "Soak overnight and boil until soft"
+        },
+        {
+          "item": "Onion",
+          "amount": "2 medium",
+          "notes": "Finely chopped"
+        },
+        {
+          "item": "Tomato",
+          "amount": "2 large",
+          "notes": "Pureed"
+        },
+        {
+          "item": "Ginger-garlic paste",
+          "amount": "1 tbsp",
+          "notes": "Freshly prepared for better flavor"
+        },
+        {
+          "item": "Chole masala",
+          "amount": "2 tbsp",
+          "notes": "Available in Indian stores or homemade"
+        },
+        {
+          "item": "Cumin seeds",
+          "amount": "1 tsp",
+          "notes": "For tempering"
+        },
+        {
+          "item": "Turmeric powder",
+          "amount": "1/2 tsp",
+          "notes": "Adds color and flavor"
+        },
+        {
+          "item": "Red chili powder",
+          "amount": "1 tsp",
+          "notes": "Adjust to taste"
+        },
+        {
+          "item": "Coriander powder",
+          "amount": "1 tsp",
+          "notes": "Enhances the spice mix"
+        },
+        {
+          "item": "Garam masala",
+          "amount": "1/2 tsp",
+          "notes": "For aroma and warmth"
+        },
+        {
+          "item": "Salt",
+          "amount": "To taste",
+          "notes": "Adjust as needed"
+        },
+        {
+          "item": "Oil or ghee",
+          "amount": "3 tbsp",
+          "notes": "For cooking"
+        },
+        {
+          "item": "Water",
+          "amount": "1 cup",
+          "notes": "Adjust consistency"
+        },
+        {
+          "item": "Fresh coriander leaves",
+          "amount": "For garnish",
+          "notes": "Chopped"
+        },
+        {
+          "item": "Wheat flour (for bhature)",
+          "amount": "2 cups",
+          "notes": "Can mix with a little semolina for crispiness"
+        },
+        {
+          "item": "Semolina (sooji)",
+          "amount": "2 tbsp",
+          "notes": "Optional for soft texture"
+        },
+        {
+          "item": "Yogurt",
+          "amount": "1/2 cup",
+          "notes": "For fermentation"
+        },
+        {
+          "item": "Baking soda",
+          "amount": "1/4 tsp",
+          "notes": "Helps dough rise"
+        },
+        {
+          "item": "Oil",
+          "amount": "For deep frying",
+          "notes": "Use fresh refined oil"
+        }
+      ],
+      "instructions": [
+        "Soak chickpeas overnight and pressure cook with salt until tender.",
+        "Heat oil in a pan and add cumin seeds. Let them splutter.",
+        "Add onions and sauté until golden brown.",
+        "Add ginger-garlic paste and cook for 1-2 minutes until the raw smell disappears.",
+        "Stir in tomato puree and cook until the oil separates.",
+        "Add turmeric, chili powder, coriander powder, and chole masala. Mix well.",
+        "Add boiled chickpeas and some of their water. Simmer for 15-20 minutes until thick and flavorful.",
+        "Sprinkle garam masala and garnish with coriander leaves.",
+        "For bhature, mix flour, semolina, yogurt, baking soda, and a pinch of salt. Knead into a soft dough.",
+        "Rest the dough for at least 2 hours.",
+        "Divide into small balls, roll into discs, and deep-fry in hot oil until puffed and golden.",
+        "Serve hot bhature with spicy chole, onion rings, and lemon wedges."
+      ],
+      "tags": ["Indian", "Street Food", "Festive", "Main Course", "Vegetarian"],
+      "nutrition": {
+        "calories": 580,
+        "protein": "18g",
+        "carbs": "72g",
+        "fat": "24g"
+      },
+      "rating": 4.8,
+      "reviews": 312,
+      "created_by": "Rishabh Mittal",
+      "created_at": "2025-10-21T12:00:00Z"
+    }
+  ]
+}
