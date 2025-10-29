@@ -1,0 +1,9 @@
+<input type="text" id="search" placeholder="Search recipes..." onkeyup="filterRecipes()">
+<script>
+function filterRecipes() {
+  const query = document.getElementById("search").value.toLowerCase();
+  document.querySelectorAll(".recipe-card").forEach(card => {
+    card.style.display = card.innerText.toLowerCase().includes(query) ? "block" : "none";
+  });
+}
+</script>
