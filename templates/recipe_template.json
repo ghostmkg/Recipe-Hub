@@ -77,5 +77,44 @@
     "time_based": ["quick", "30-minute", "make-ahead", "meal-prep"],
     "cuisine": ["italian", "mexican", "indian", "chinese", "mediterranean", "american"],
     "characteristics": ["healthy", "comfort-food", "kid-friendly", "budget", "spicy"]
-  }
+  },
+
+  "recipes": [
+    {
+      "id": "spaghetti-aglio-olio",
+      "title": "Spaghetti Aglio e Olio",
+      "description": "A simple Italian pasta with garlic, olive oil, and chili flakes.",
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prep_time": 10,
+      "cook_time": 15,
+      "servings": 2,
+      "ingredients": [
+        {"item": "Spaghetti", "amount": "200g", "notes": "preferably spaghetti n.5"},
+        {"item": "Garlic cloves", "amount": "4", "notes": "thinly sliced"},
+        {"item": "Olive oil", "amount": "4 tbsp", "notes": "extra virgin"},
+        {"item": "Red chili flakes", "amount": "1 tsp", "notes": "adjust to taste"},
+        {"item": "Parsley", "amount": "2 tbsp", "notes": "chopped"},
+        {"item": "Salt", "amount": "to taste", "notes": ""}
+      ],
+      "instructions": [
+        "Cook spaghetti in salted boiling water until al dente.",
+        "Heat olive oil in a pan, add garlic and chili flakes, sauté until fragrant.",
+        "Drain pasta and add to the pan, toss well with oil and garlic.",
+        "Add chopped parsley, season with salt, and serve hot."
+      ],
+      "tags": ["italian", "quick", "vegetarian", "comfort-food"],
+      "nutrition": {
+        "calories": 400,
+        "protein": "12g",
+        "carbs": "60g",
+        "fat": "15g",
+        "fiber": "3g",
+        "sodium": "200mg"
+      },
+      "image_url": "https://example.com/spaghetti.jpg",
+      "notes": "Use fresh parsley for best flavor.",
+      "source": "Grandma's Italian Cookbook"
+    }
+  ]
 }
