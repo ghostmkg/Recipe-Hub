@@ -67,6 +67,34 @@
         "Zest of 2 lemons"
       ],
       "tags": ["dessert", "citrus", "bars", "tangy"]
+    },
+    {
+      "id": "d004",
+      "title": "Homemade Gelato",
+      "prep_time": 25,
+      "cook_time": 10,
+      "difficulty": "Medium",
+      "servings": 6,
+      "ingredients": [
+        "2 cups whole milk",
+        "1 cup heavy cream",
+        "3/4 cup granulated sugar",
+        "4 large egg yolks",
+        "1 teaspoon vanilla extract",
+        "Pinch of salt"
+      ],
+      "instructions": [
+        "In a saucepan, heat milk and cream over medium heat until hot but not boiling.",
+        "In a separate bowl, whisk egg yolks and sugar until pale and thick.",
+        "Gradually pour half the hot milk mixture into the egg yolks, whisking constantly.",
+        "Return the mixture to the saucepan and cook over low heat, stirring until thick enough to coat the back of a spoon.",
+        "Remove from heat, stir in vanilla and salt.",
+        "Strain the custard through a fine sieve and cool completely.",
+        "Cover and chill for at least 4 hours or overnight.",
+        "Churn in an ice cream maker according to manufacturer’s instructions.",
+        "Transfer to a container, cover, and freeze until firm."
+      ],
+      "tags": ["dessert", "Italian", "frozen", "custard"]
     }
   ]
 }
