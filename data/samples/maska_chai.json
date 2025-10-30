@@ -1,0 +1,96 @@
+{
+    "id": "maska_chai_001",
+    "title": "Maska Chai",
+    "description": "Silky, butter-enriched Indian tea — rich, comforting, and perfect with buttered toast or pav.",
+    "cuisine": "Indian",
+    "difficulty": "Easy",
+    "prep_time": 3,
+    "cook_time": 5,
+    "servings": 1,
+    "ingredients": [
+        {
+            "item": "water",
+            "amount": "1 cup",
+            "notes": ""
+        },
+        {
+            "item": "milk",
+            "amount": "1/2 cup",
+            "notes": "Use whole milk for a richer texture; plant milk for vegan option"
+        },
+        {
+            "item": "strong black tea leaves",
+            "amount": "1 tsp",
+            "notes": "Or 1 strong tea bag"
+        },
+        {
+            "item": "unsalted butter",
+            "amount": "1 tsp",
+            "notes": "Melted; increase to taste for creamier maska chai"
+        },
+        {
+            "item": "sugar",
+            "amount": "1 tsp",
+            "notes": "Or to taste"
+        },
+        {
+            "item": "ginger",
+            "amount": "1 small slice",
+            "notes": "Optional — crushed for a warm note"
+        },
+        {
+            "item": "cardamom",
+            "amount": "1 pod",
+            "notes": "Optional — lightly crushed"
+        }
+    ],
+    "instructions": [
+        "Bring water to a gentle boil in a small pan.",
+        "Add tea leaves and optional ginger/cardamom. Simmer for 2–3 minutes to extract flavor.",
+        "Add milk and sugar, then bring to a rolling boil for about 1 minute.",
+        "Turn off the heat and stir in the melted butter until it emulsifies into the tea, creating a silky mouthfeel.",
+        "Strain into a cup and serve hot. Pair with toasted bread, buttered pav, or biscuits for the classic maska chai experience."
+    ],
+    "tags": [
+        "beverage",
+        "chai",
+        "maska",
+        "breakfast",
+        "comfort-food"
+    ],
+    "nutrition": {
+        "calories": 150,
+        "protein": "2g",
+        "carbs": "6g",
+        "fat": "13g",
+        "fiber": "0g",
+        "sodium": "20mg"
+    },
+    "image_url": "",
+    "notes": "For a vegan version use plant-based butter and oat or almond milk. Swap butter for ghee for a nuttier aroma.",
+    "source": "Recipe-Hub sample",
+    "translations": {
+        "hi": {
+            "title": "मस्का चाय",
+            "description": "मक्खन मिलाकर बनाई जाने वाली मलाईदार चाय — टोस्ट या पाव के साथ बेहतरीन।",
+            "instructions": [
+                "एक छोटे पैन में पानी उबालें।",
+                "चाय पत्ती और (यदि चाहें) अदरक/इलायची डालकर 2–3 मिनट उबालें।",
+                "दूध और चीनी डालकर एक मिनट तक उबालें।",
+                "आंच बंद करके पिघला हुआ मक्खन डालें और अच्छी तरह मिलाएँ ताकि मक्खन चाय में घुल जाए।",
+                "छानकर कप में परोसें। टोस्ट या मक्खन वाले पाव के साथ परोसें।"
+            ]
+        },
+        "kn": {
+            "title": "ಮಸ್ಕಾ ಚಹಾ",
+            "description": "ಬೆಣ್ಣೆ ಮಿಶ್ರಿತ ಮೃದುವಾದ ಚಹಾ — ಟೋಸ್ಟ್ ಅಥವಾ ಪಾವ್ ಜೊತೆಗೆ ರುಚಿಯಾದು.",
+            "instructions": [
+                "ಸಣ್ಣ ಪಾತ್ರೆಯಲ್ಲಿ ನೀರನ್ನೆ ಕುದಿಸಿ.",
+                "ಚಹಾ ಎಲೆಗಳು ಮತ್ತು (ಅವಶ್ಯವಾದರೆ) ಶುಂಠಿ/ಏಲಕ್ಕಿ ಹಾಕಿ 2–3 ನಿಮಿಷ ಕುದಿಸಿ.",
+                "ಹಾಲು ಮತ್ತು ಸಕ್ಕರೆ ಸೇರಿಸಿ ಒಂದು ನಿಮಿಷದವರೆಗೆ ಕುದಿಸಿ.",
+                "ಅಂಚು ನಿಲ್ಲಿಸಿ, ಪುಕಿದ ಬೆಣ್ಣೆ ಸೇರಿಸಿ ಚೆನ್ನಾಗಿ ملكಿಸಿ (ಎಮಲ್ಸಿಫೈ) ಮಾಡಿಕೊಳ್ಳಿ.",
+                "ಚಹಾವನ್ನು strain ಮಾಡಿ ಕಪ್ ಗೆ ಹಂಚಿ, ಟೋಸ್ಟ್ ಅಥವಾ ಬೇಯಿಸಿದ ಪಾವ್ ಜೊತೆ ಸೇವಿಸಿ."
+            ]
+        }
+    }
+}
