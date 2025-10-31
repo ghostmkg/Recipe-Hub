@@ -1,0 +1,74 @@
+{
+  "recipes": [
+    {
+      "id": 6,
+      "title": "Chocolate Banana Protein Shake",
+      "description": "A creamy and energizing chocolate banana protein shake packed with nutrients — perfect for post-workout recovery or a quick breakfast boost.",
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "prep_time": 5,
+      "cook_time": 0,
+      "servings": 1,
+      "ingredients": [
+        {
+          "item": "Ripe banana",
+          "amount": "1 medium",
+          "notes": "Adds natural sweetness and creaminess"
+        },
+        {
+          "item": "Protein powder (chocolate flavor)",
+          "amount": "1 scoop (~30 g)",
+          "notes": "Whey, plant-based, or your preferred type"
+        },
+        {
+          "item": "Milk or almond milk",
+          "amount": "1 cup",
+          "notes": "Adjust consistency as desired"
+        },
+        {
+          "item": "Peanut butter",
+          "amount": "1 tbsp",
+          "notes": "For extra protein and flavor"
+        },
+        {
+          "item": "Cocoa powder",
+          "amount": "1 tsp",
+          "notes": "Enhances chocolate taste"
+        },
+        {
+          "item": "Honey or maple syrup",
+          "amount": "1 tsp (optional)",
+          "notes": "For additional sweetness"
+        },
+        {
+          "item": "Ice cubes",
+          "amount": "4–5 cubes",
+          "notes": "For a chilled, smoothie-like texture"
+        },
+        {
+          "item": "Chia seeds or flax seeds",
+          "amount": "1 tsp (optional)",
+          "notes": "Adds fiber and omega-3s"
+        }
+      ],
+      "instructions": [
+        "Add the banana, protein powder, milk, peanut butter, cocoa powder, and honey into a blender.",
+        "Add ice cubes and optional chia or flax seeds.",
+        "Blend on high speed for 30–45 seconds until smooth and creamy.",
+        "Check consistency — add more milk for a thinner shake or more ice for thickness.",
+        "Pour into a glass and serve immediately. Optionally, top with a sprinkle of cocoa or banana slices."
+      ],
+      "tags": ["Protein Shake", "Healthy", "Post-Workout", "Breakfast", "Smoothie"],
+      "nutrition": {
+        "calories": 320,
+        "protein": "30g",
+        "carbs": "28g",
+        "fat": "10g"
+      },
+      "rating": 4.8,
+      "reviews": 178,
+      "created_by": "Rishabh Mittal",
+      "created_at": "2025-10-30T09:15:00Z"
+    }
+  ]
+}

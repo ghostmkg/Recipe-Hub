@@ -13,3 +13,5 @@ postcss.config.js
 
 # Database
 recipehub.db
+
+.vscode

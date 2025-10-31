@@ -1,0 +1,30 @@
+{
+  "recipe_name": "Masala Chai",
+  "author": "Rishabh Mittal",
+  "category": "Beverage",
+  "description": "A flavorful and aromatic Indian tea made with milk, black tea leaves, and a blend of warming spices — perfect for a cozy morning or evening refreshment.",
+  "ingredients": [
+    "2 cups water",
+    "1 cup milk",
+    "2 teaspoons black tea leaves (or 2 tea bags)",
+    "2 teaspoons sugar (adjust to taste)",
+    "2-3 cardamom pods, crushed",
+    "1 small piece of cinnamon stick",
+    "2-3 cloves",
+    "1/2 inch piece of fresh ginger, grated",
+    "A pinch of black pepper (optional)"
+  ],
+  "instructions": [
+    "In a saucepan, add water, crushed cardamom, cinnamon, cloves, ginger, and black pepper.",
+    "Bring to a boil and let the spices simmer for 2-3 minutes to release their aroma.",
+    "Add the tea leaves and boil for another 1-2 minutes.",
+    "Pour in the milk and sugar, then bring the mixture to a gentle boil again.",
+    "Simmer for 2-3 minutes or until the tea reaches your preferred strength.",
+    "Strain the tea into cups using a fine sieve.",
+    "Serve hot and enjoy your aromatic masala chai!"
+  ],
+  "prep_time": "10 minutes",
+  "servings": 2,
+  "difficulty": "Easy",
+  "tags": ["tea", "indian", "beverage", "spiced", "comfort drink"]
+}

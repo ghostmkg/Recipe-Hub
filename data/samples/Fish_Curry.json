@@ -1,0 +1,119 @@
+{
+  "recipes": [
+    {
+      "id": 5,
+      "title": "Fish Curry",
+      "description": "A flavorful and aromatic Indian-style fish curry simmered in a spiced coconut and tomato gravy — perfect with steamed rice or chapati.",
+      "cuisine": "Indian",
+      "difficulty": "Medium",
+      "prep_time": 20,
+      "cook_time": 30,
+      "servings": 4,
+      "ingredients": [
+        {
+          "item": "Fish (Rohu, King Fish, or any firm white fish)",
+          "amount": "500 g",
+          "notes": "Cleaned and cut into medium pieces"
+        },
+        {
+          "item": "Onion",
+          "amount": "2 medium",
+          "notes": "Finely chopped"
+        },
+        {
+          "item": "Tomato",
+          "amount": "2 large",
+          "notes": "Chopped or pureed"
+        },
+        {
+          "item": "Coconut milk",
+          "amount": "1 cup",
+          "notes": "For a creamy texture"
+        },
+        {
+          "item": "Ginger-garlic paste",
+          "amount": "1 tbsp",
+          "notes": "Freshly prepared"
+        },
+        {
+          "item": "Turmeric powder",
+          "amount": "1/2 tsp",
+          "notes": "For color and flavor"
+        },
+        {
+          "item": "Red chili powder",
+          "amount": "1 tsp",
+          "notes": "Adjust to taste"
+        },
+        {
+          "item": "Coriander powder",
+          "amount": "1 tbsp",
+          "notes": "Adds depth of flavor"
+        },
+        {
+          "item": "Cumin seeds",
+          "amount": "1 tsp",
+          "notes": "For tempering"
+        },
+        {
+          "item": "Mustard seeds",
+          "amount": "1/2 tsp",
+          "notes": "Optional, enhances aroma"
+        },
+        {
+          "item": "Tamarind pulp",
+          "amount": "1 tbsp",
+          "notes": "For tanginess (optional if using tomato)"
+        },
+        {
+          "item": "Green chilies",
+          "amount": "2",
+          "notes": "Slit lengthwise"
+        },
+        {
+          "item": "Curry leaves",
+          "amount": "8–10 leaves",
+          "notes": "For authentic South Indian flavor"
+        },
+        {
+          "item": "Salt",
+          "amount": "To taste",
+          "notes": "Adjust as needed"
+        },
+        {
+          "item": "Oil",
+          "amount": "3 tbsp",
+          "notes": "Preferably coconut or mustard oil"
+        },
+        {
+          "item": "Fresh coriander leaves",
+          "amount": "For garnish",
+          "notes": "Chopped"
+        }
+      ],
+      "instructions": [
+        "Clean the fish pieces, pat dry, and marinate with a pinch of turmeric, salt, and chili powder. Set aside for 15 minutes.",
+        "Heat oil in a pan, add mustard and cumin seeds. Let them splutter.",
+        "Add curry leaves, followed by chopped onions. Sauté until golden brown.",
+        "Add ginger-garlic paste and cook for 1-2 minutes until the raw aroma disappears.",
+        "Add tomatoes and cook until soft and the oil starts to separate.",
+        "Stir in turmeric, chili powder, coriander powder, and salt. Mix well.",
+        "Pour in coconut milk and tamarind pulp (if using), then add 1/2 cup water. Stir and bring to a gentle boil.",
+        "Carefully add the marinated fish pieces and green chilies. Cover and simmer on low heat for 10–12 minutes until fish is cooked through.",
+        "Adjust seasoning and thickness of the curry as desired.",
+        "Garnish with fresh coriander leaves and serve hot with steamed rice or chapati."
+      ],
+      "tags": ["Indian", "Seafood", "Main Course", "Coconut Curry", "Comfort Food"],
+      "nutrition": {
+        "calories": 420,
+        "protein": "35g",
+        "carbs": "10g",
+        "fat": "26g"
+      },
+      "rating": 4.7,
+      "reviews": 245,
+      "created_by": "Rishabh Mittal",
+      "created_at": "2025-10-21T12:30:00Z"
+    }
+  ]
+}

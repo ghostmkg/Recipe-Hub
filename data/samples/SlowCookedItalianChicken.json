@@ -1,0 +1,102 @@
+{
+  "recipes": [
+    {
+      "id": 3,
+      "title": "Slow-Cooked Italian Chicken",
+      "description": "Tender and flavorful chicken slow-cooked in a rich Italian tomato sauce with herbs, garlic, and vegetables — a perfect comfort meal.",
+      "cuisine": "Italian",
+      "difficulty": "Easy",
+      "prep_time": 20,
+      "cook_time": 240,
+      "servings": 6,
+      "ingredients": [
+        {
+          "item": "Boneless chicken thighs",
+          "amount": "1 kg",
+          "notes": "Skinless, trimmed of excess fat"
+        },
+        {
+          "item": "Olive oil",
+          "amount": "2 tbsp",
+          "notes": "For browning the chicken"
+        },
+        {
+          "item": "Onion",
+          "amount": "1 large",
+          "notes": "Finely chopped"
+        },
+        {
+          "item": "Garlic cloves",
+          "amount": "4",
+          "notes": "Minced"
+        },
+        {
+          "item": "Crushed tomatoes",
+          "amount": "400g can",
+          "notes": "Preferably Italian-style"
+        },
+        {
+          "item": "Tomato paste",
+          "amount": "2 tbsp",
+          "notes": "Adds richness to the sauce"
+        },
+        {
+          "item": "Italian seasoning",
+          "amount": "2 tsp",
+          "notes": "Or a mix of oregano, basil, and thyme"
+        },
+        {
+          "item": "Red bell pepper",
+          "amount": "1",
+          "notes": "Sliced thinly"
+        },
+        {
+          "item": "Zucchini",
+          "amount": "1 small",
+          "notes": "Sliced into rounds"
+        },
+        {
+          "item": "Salt",
+          "amount": "1 tsp",
+          "notes": "Adjust to taste"
+        },
+        {
+          "item": "Black pepper",
+          "amount": "1/2 tsp",
+          "notes": "Freshly ground"
+        },
+        {
+          "item": "Fresh basil leaves",
+          "amount": "A handful",
+          "notes": "For garnish"
+        },
+        {
+          "item": "Parmesan cheese",
+          "amount": "For serving",
+          "notes": "Freshly grated"
+        }
+      ],
+      "instructions": [
+        "Heat olive oil in a skillet over medium heat and brown chicken thighs on both sides for 2-3 minutes each.",
+        "Place the browned chicken in a slow cooker.",
+        "Add onions, garlic, bell pepper, zucchini, crushed tomatoes, tomato paste, and Italian seasoning.",
+        "Season with salt and pepper, then stir to combine all ingredients.",
+        "Cover and cook on LOW for 6-7 hours or on HIGH for 3-4 hours until chicken is tender and fully cooked.",
+        "Adjust seasoning if needed and stir gently before serving.",
+        "Garnish with fresh basil and grated Parmesan cheese.",
+        "Serve hot with pasta, rice, or crusty bread."
+      ],
+      "tags": ["Italian", "Slow Cooker", "Comfort Food", "Dinner", "Healthy"],
+      "nutrition": {
+        "calories": 390,
+        "protein": "42g",
+        "carbs": "12g",
+        "fat": "18g"
+      },
+      "rating": 4.9,
+      "reviews": 156,
+      "created_by": "Bawandar",
+      "created_at": "2024-11-05T12:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "recipes": [
+    {
+      "id": 7,
+      "title": "Soan Papdi",
+      "description": "A classic Indian flaky sweet made with gram flour, sugar, and ghee — light, crispy, and melts in your mouth. Perfect for festivals and celebrations.",
+      "cuisine": "Indian",
+      "difficulty": "Medium",
+      "prep_time": 15,
+      "cook_time": 30,
+      "servings": 6,
+      "ingredients": [
+        {
+          "item": "Gram flour (besan)",
+          "amount": "1 cup",
+          "notes": "The base flour for the sweet"
+        },
+        {
+          "item": "All-purpose flour (maida)",
+          "amount": "1 cup",
+          "notes": "Gives a light texture"
+        },
+        {
+          "item": "Ghee (clarified butter)",
+          "amount": "1 cup",
+          "notes": "Used for roasting and binding"
+        },
+        {
+          "item": "Sugar",
+          "amount": "2 cups",
+          "notes": "For the syrup base"
+        },
+        {
+          "item": "Water",
+          "amount": "3/4 cup",
+          "notes": "To make the sugar syrup"
+        },
+        {
+          "item": "Cardamom powder",
+          "amount": "1 tsp",
+          "notes": "Adds fragrance and flavor"
+        },
+        {
+          "item": "Pistachios and almonds (chopped)",
+          "amount": "2 tbsp",
+          "notes": "For garnish and texture"
+        }
+      ],
+      "instructions": [
+        "Heat ½ cup ghee in a pan and roast the gram flour and all-purpose flour together on low flame until golden brown and aromatic (about 10–12 minutes). Set aside.",
+        "In another pan, combine sugar and water. Heat until it reaches a 2-thread consistency (a bit thick and sticky when stretched between fingers).",
+        "Add the cardamom powder to the syrup and mix well.",
+        "Quickly pour the syrup into the roasted flour mixture and stir continuously with a spatula to mix evenly.",
+        "Once it starts thickening, pour the mixture onto a greased plate or tray.",
+        "Use a rolling pin to flatten it evenly and sprinkle chopped nuts on top.",
+        "When slightly warm, cut into square or diamond shapes.",
+        "Let it cool completely — the mixture will turn flaky and crisp.",
+        "Store in an airtight container and enjoy!"
+      ],
+      "tags": ["Indian Sweet", "Festive Dessert", "Diwali Special", "Traditional"],
+      "nutrition": {
+        "calories": 260,
+        "protein": "5g",
+        "carbs": "35g",
+        "fat": "12g"
+      },
+      "rating": 4.7,
+      "reviews": 245,
+      "created_by": "Rishabh Mittal",
+      "created_at": "2025-10-30T13:45:00Z"
+    }
+  ]
+}
